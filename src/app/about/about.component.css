@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/* headline section */
+
+.headline {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 247, 248, 0.9);
+  padding: 9em 1em;
+}
+
+.bg-01 {
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  left: 15%;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.greet {
+  font-weight: 500;
+  font-size: 1.3em;
+  padding-bottom: 0px;
+}
+
+.header {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 2.2em;
+}
+
+.subtitle {
+  color: #272a31;
+  padding: 1em 0.5em;
+}
+
+.underline {
+  height: 1px;
+  background-color: #ec5242;
+  width: 2em;
+  margin-top: 0.5em;
+}
+
+#about{
+    padding: 4em;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+hr{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-top-style: inset;
+    border-top-width: 1px;
+}
+
+
+@media screen and (min-width: 767px) {
+
+  /* headline */
+  main {
+    padding-top: 6.03em;
+  }
+
+  .overlay {
+    padding: 9em;
+  }
+
+  .greet {
+    font-size: 1.75em;
+  }
+
+  .header {
+    font-size: 2em;
+  }
+
+  .subtitle {
+    margin-bottom: 2em;
+  }
+}

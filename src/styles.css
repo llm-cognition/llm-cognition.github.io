@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+section {
+    font-family: Montserrat;
+	font-size: medium;
+	text-align: justify;
+    font-weight: lighter;
+}
+
+li {
+    margin: 10px 0;
+}

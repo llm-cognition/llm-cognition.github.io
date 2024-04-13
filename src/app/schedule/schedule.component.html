@@ -1,0 +1,25 @@
+<div class="row" id="schedule">
+
+    <h1> Tentative Schedule </h1>
+    <hr>
+    <div style="padding: 0 10em">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Start Time</th>
+                    <th scope="col">Session</th>
+                    <th scope="col">Speaker</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Repeat this block for each session -->
+                <tr *ngFor="let session of sessions">
+                    <td>{{session.time}}</td>
+                    <td>{{session.title}}</td>
+                    <td>{{session.speaker}}</td>
+                </tr>
+                <!-- End of block -->
+            </tbody>
+        </table>
+    </div>
+</div>

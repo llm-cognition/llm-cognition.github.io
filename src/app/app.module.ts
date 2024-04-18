@@ -7,6 +7,8 @@ import { AboutComponent } from './about/about.component';
 import { OrganizersComponent } from './organizers/organizers.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { CfpComponent } from './cfp/cfp.component';
+import { SponsorsComponent } from './sponsors/sponsors.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ScheduleComponent } from './schedule/schedule.component';
     AboutComponent,
     OrganizersComponent,
     SpeakersComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    CfpComponent,
+    SponsorsComponent
   ],
   imports: [
     BrowserModule,

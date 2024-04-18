@@ -5,26 +5,27 @@
 .headline {
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
+  display: flex;
+  /* background-image: url('../../assets/vienna.jpg'); */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
 }
 
+
 .overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(247, 247, 248, 0.9);
-  padding: 9em 1em;
+  /* background-color: rgba(247, 247, 248, 0.8); */
+  padding: 1em;
 }
 
 .bg-01 {
   width: 100%;
   height: 100%;
-  top: 10%;
-  left: 15%;
-  opacity: 0.4;
+  opacity: 0.2;
   position: absolute;
 }
 
@@ -57,7 +58,7 @@
 }
 
 #about{
-    padding: 4em;
+    padding-top: 4em;
     font-family: 'Lato', sans-serif;
     font-size: large;
 }
@@ -84,7 +85,7 @@ hr{
   }
 
   .overlay {
-    padding: 9em;
+    padding: 3em 9em;
   }
 
   .greet {

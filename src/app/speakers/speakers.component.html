@@ -2,8 +2,8 @@
 
     <h1> Speakers </h1>
     <hr>
-    <div *ngFor="let speaker of speakers" class="row">
-        <a href="{{speaker.url}}" class="col-md-4">
+    <div *ngFor="let speaker of speakers" class="row" class="col-md-3" style="display: inline-block;">
+        <a href="{{speaker.url}}">
             <div class="card" id="{{ speaker.name }}">
                 <img src="{{ speaker.img }}" class="rounded-circle mx-auto" width="160" height="160"
                     alt="{{ speaker.name }}" style="margin: 0.5rem;">
@@ -13,11 +13,11 @@
                 </div>
             </div>
         </a>
-        <div style="display: inline-block;" class="col-md-8">
+        <!-- <div style="display: inline-block;" class="col-md-8">
             <br>
             <h4>{{speaker.talk_title}}</h4>
             <p style="margin-top: 1em; font-weight: lighter;">{{speaker.talk_abstract}}</p>
-        </div>
+        </div> -->
     </div>
 
 </div>

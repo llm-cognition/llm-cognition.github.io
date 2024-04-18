@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+#cfp{
+    padding-top: 4em;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+hr{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-top-style: inset;
+    border-top-width: 1px;
+}
+
+a {
+    color: #1C8394;
+}

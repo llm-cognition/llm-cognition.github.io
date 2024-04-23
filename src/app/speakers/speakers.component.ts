@@ -35,15 +35,15 @@ export class SpeakersComponent implements OnInit {
       talk_title: "Talk Title: TBA",
       talk_abstract: "Abstract: TBA"
     },
-    // {
-    //   name: 'Antoine Bosselut,',
-    //   position: 'Assistant Professor',
-    //   institute: 'EPFL',
-    //   img: 'assets/speakers/antoine-bosselut.png',
-    //   url: 'https://atcbosselut.github.io',
-    //   talk_title: "Talk Title: TBA",
-    //   talk_abstract: "Abstract: TBA"
-    // }
+    {
+      name: 'Antoine Bosselut,',
+      position: 'Assistant Professor',
+      institute: 'EPFL',
+      img: 'assets/speakers/antoine-bosselut.png',
+      url: 'https://atcbosselut.github.io',
+      talk_title: "Talk Title: TBA",
+      talk_abstract: "Abstract: TBA"
+    }
   ]
 
   constructor() { }

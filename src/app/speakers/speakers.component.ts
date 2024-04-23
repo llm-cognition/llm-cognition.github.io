@@ -27,23 +27,23 @@ export class SpeakersComponent implements OnInit {
       talk_abstract: "Abstract: TBA"
     },
     {
-      name: 'Kyle Mahowald',
+      name: 'Chelsea Finn',
       position: 'Assistant Professor',
-      institute: 'University of Texas at Austin',
-      img: 'assets/speakers/kule-mahowald.png',
-      url: 'https://mahowak.github.io',
+      institute: 'Stanford University',
+      img: 'assets/speakers/chelsea-finn.jpg',
+      url: 'https://ai.stanford.edu/~cbfinn/',
       talk_title: "Talk Title: TBA",
       talk_abstract: "Abstract: TBA"
     },
-    {
-      name: 'Antoine Bosselut,',
-      position: 'Assistant Professor',
-      institute: 'EPFL',
-      img: 'assets/speakers/antoine-bosselut.png',
-      url: 'https://atcbosselut.github.io',
-      talk_title: "Talk Title: TBA",
-      talk_abstract: "Abstract: TBA"
-    }
+    // {
+    //   name: 'Antoine Bosselut,',
+    //   position: 'Assistant Professor',
+    //   institute: 'EPFL',
+    //   img: 'assets/speakers/antoine-bosselut.png',
+    //   url: 'https://atcbosselut.github.io',
+    //   talk_title: "Talk Title: TBA",
+    //   talk_abstract: "Abstract: TBA"
+    // }
   ]
 
   constructor() { }

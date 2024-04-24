@@ -36,7 +36,7 @@ export class SpeakersComponent implements OnInit {
       talk_abstract: "Abstract: TBA"
     },
     {
-      name: 'Antoine Bosselut,',
+      name: 'Antoine Bosselut',
       position: 'Assistant Professor',
       institute: 'EPFL',
       img: 'assets/speakers/antoine-bosselut.png',

@@ -9,7 +9,7 @@ export class SpeakersComponent implements OnInit {
 
   speakers = [
     {
-      name: 'Melanie Mitchel',
+      name: 'Melanie Mitchell',
       position: 'Professor',
       institute: ' Santa Fe Institute',
       img: 'assets/speakers/melanie-mitchel.png',

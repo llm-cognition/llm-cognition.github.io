@@ -19,7 +19,7 @@ export class ScheduleComponent implements OnInit {
     {time: '13:30', title: 'Invited Talk 2', speaker: 'TBD'},
     {time: '14:00', title: 'Invited Talk 3', speaker: 'TBD'},
     {time: '14:30', title: 'Poster Session 3', speaker: 'TBD'},
-    {time: '15:00', title: 'Coffee Break', speaker: 'TBD'},
+    {time: '15:00', title: 'Coffee Break', speaker: '-'},
     {time: '15:30', title: 'Poster Session 4', speaker: 'TBD'},
     {time: '16:00', title: 'Invited Talk 4', speaker: 'TBD'},
     {time: '16:30', title: 'Contributed Talk 1', speaker: 'TBD'},

@@ -2,8 +2,8 @@
 
     <h1> Speakers </h1>
     <hr>
-    <div *ngFor="let speaker of speakers" class="row" class="col-md-3" style="display: inline-block;">
-        <a href="{{speaker.url}}">
+    <div *ngFor="let speaker of speakers" class="row" class="col-md-4" style="display: inline-block;">
+        <a href="{{speaker.url}}" target="_blank">
             <div class="card" id="{{ speaker.name }}">
                 <img src="{{ speaker.img }}" class="rounded-circle mx-auto" width="160" height="160"
                     alt="{{ speaker.name }}" style="margin: 0.5rem;">

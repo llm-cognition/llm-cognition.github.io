@@ -43,6 +43,15 @@ export class SpeakersComponent implements OnInit {
       url: 'https://atcbosselut.github.io',
       talk_title: "Talk Title: TBA",
       talk_abstract: "Abstract: TBA"
+    },
+    {
+      name: 'Ethan Wilcox',
+      position: 'Postdoctoral Fellow',
+      institute: 'ETH Zurich',
+      img: 'assets/speakers/ethan-wilcox.png',
+      url: 'https://wilcoxeg.github.io',
+      talk_title: "Talk Title: TBA",
+      talk_abstract: "Abstract: TBA"
     }
   ]
 

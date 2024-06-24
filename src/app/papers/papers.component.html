@@ -1,0 +1,31 @@
+<div class="row">
+
+    <section id="papers">
+        <h1> Accepted Papers </h1>
+        <hr>
+        <div style="margin-top: 2em">
+            <h3> Poster Session 1 </h3>
+            <hr>
+            <ol>
+                <li *ngFor="let paper of papers_session_1">
+                    <details>
+                        <summary><strong style="color:#1C8394; font-size: large;">{{paper.title}}</strong></summary>
+                        <p class="abstract">{{paper.abstract}}</p>
+                    </details>
+                </li>
+            </ol>
+        </div>
+        <div style="margin-top: 2em">
+            <h3> Poster Session 2 </h3>
+            <hr>
+            <ol>
+                <li *ngFor="let paper of papers_session_2">
+                    <details>
+                        <summary><strong style="color:#1C8394; font-size: large;">{{paper.title}}</strong></summary>
+                        <p class="abstract">{{paper.abstract}}</p>
+                    </details>
+                </li>
+            </ol>
+        </div>
+    </section>
+</div>  

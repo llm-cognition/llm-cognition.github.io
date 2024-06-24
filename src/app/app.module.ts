@@ -9,6 +9,7 @@ import { SpeakersComponent } from './speakers/speakers.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { CfpComponent } from './cfp/cfp.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { PapersComponent } from './papers/papers.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
     SpeakersComponent,
     ScheduleComponent,
     CfpComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    PapersComponent
   ],
   imports: [
     BrowserModule,

@@ -4,24 +4,22 @@
         <h1> Accepted Papers </h1>
         <hr>
         <div style="margin-top: 2em">
-            <h3> Poster Session 1 </h3>
-            <hr>
+
             <ol>
-                <li *ngFor="let paper of papers_session_1">
+                <li *ngFor="let paper of papers">
+                    <a href="https://openreview.net{{paper.pdf}}" target="_blank">
+                        <strong style="color:#1C8394; font-size: large;">{{paper.title}}</strong>
+                    </a>
+                    <br>
+                    <strong>Authors: </strong>
+                    <span>{{paper.authors.join(', ')}}</span>
+                    <br>
+                    <div style="font-size: small;">
+                        <strong>Keywords: </strong>
+                        <span>{{paper.keywords.join(', ')}}</span> 
+                    </div>
                     <details>
-                        <summary><strong style="color:#1C8394; font-size: large;">{{paper.title}}</strong></summary>
-                        <p class="abstract">{{paper.abstract}}</p>
-                    </details>
-                </li>
-            </ol>
-        </div>
-        <div style="margin-top: 2em">
-            <h3> Poster Session 2 </h3>
-            <hr>
-            <ol>
-                <li *ngFor="let paper of papers_session_2">
-                    <details>
-                        <summary><strong style="color:#1C8394; font-size: large;">{{paper.title}}</strong></summary>
+                        <summary>Abstract</summary>
                         <p class="abstract">{{paper.abstract}}</p>
                     </details>
                 </li>

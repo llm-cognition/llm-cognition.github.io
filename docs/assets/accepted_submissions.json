@@ -1,0 +1,1330 @@
+[
+    {
+        "title": "Minimax Tree of Thoughts: Playing Two-Player Zero-Sum Sequential Games with Large Language Models",
+        "authors": [
+            "Wei Guo",
+            "Xiaotian Hao",
+            "Jianye HAO",
+            "YAN ZHENG"
+        ],
+        "abstract": "Large language models are being used to solve an increasing number of tasks, but the existing methods based on large language models are still not good enough in playing two-player zero-sum sequential games. In order to solve the related challenges of large language models playing two-player zero-sum sequential games, we propose Minimax Tree of Thoughts, which combines the idea of Tree of Thoughts and minimax search. Experiment results show that our Minimax Tree of Thoughts method significantly outperforms the original Tree of Thoughts method in two-player zero-sum sequential games tasks such as Word chain and game of Ghost.",
+        "pdf": "/pdf/7b3abfaecfcfa1402772685a41b3e62dbd281ef9.pdf",
+        "keywords": [
+            "Machine Learning",
+            "Two-Player Zero-Sum Games",
+            "Sequential Games",
+            "Planning",
+            "Large Language Models"
+        ],
+        "bibtex": "@inproceedings{\nguo2024minimax,\ntitle={Minimax Tree of Thoughts: Playing Two-Player Zero-Sum Sequential Games with Large Language Models},\nauthor={Wei Guo and Xiaotian Hao and Jianye HAO and YAN ZHENG},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=k47R20XO4E}\n}",
+        "number": 1,
+        "session": "Poster Session 1",
+        "id": 2
+    },
+    {
+        "title": "SheetAgent: A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models",
+        "authors": [
+            "Yibin Chen",
+            "Yifu Yuan",
+            "Zeyu Zhang",
+            "YAN ZHENG",
+            "Jinyi Liu",
+            "Fei Ni",
+            "Jianye HAO"
+        ],
+        "abstract": "Spreadsheet manipulation is widely-existing in most daily works and significantly improves the working efficiency. Large language model (LLM) has been recently attempted for automatic spreadsheet manipulation, but not yet been investigated in complicated and realistic tasks where reasoning challenges exist (e.g., long horizon manipulation with multi-step reasoning and ambiguous requirements). To bridge the gap with the real-world requirements, we introduce **SheetRM**, a benchmark featuring long-horizon and multi-category tasks with reasoning dependent manipulation caused by real-life challenges. To mitigate the above challenges, we further propose **SheetAgent**, an novel autonomous agent that utilizes the power of LLMs. SheetAgent consists of three collaborative modules: Planner, Informer and Retriever, achieving both advanced reasoning and accurate manipulation over spreadsheets without human interaction through iterative task reasoning and reflection. Extensive experiments demonstrate that SheetAgent delivers 20-30% pass rate improvements on multiple benchmarks over baselines, achieving enhanced precision in spreadsheet manipulation and demonstrating superior table reasoning abilities. More details and visualizations are available at https://sheetagent.github.io.",
+        "pdf": "/pdf/f1ac9d1f6e25c57a358f9eff1905ac632ca9a8a5.pdf",
+        "keywords": [
+            "Large Language Models",
+            "Autonomous Agent",
+            "Benchmark",
+            "Spreadsheet Manipulation"
+        ],
+        "bibtex": "@inproceedings{\nchen2024sheetagent,\ntitle={SheetAgent: A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models},\nauthor={Yibin Chen and Yifu Yuan and Zeyu Zhang and YAN ZHENG and Jinyi Liu and Fei Ni and Jianye HAO},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=fCbpCn2r97}\n}",
+        "number": 2,
+        "session": "Poster Session 1",
+        "id": 3
+    },
+    {
+        "title": "Matching domain experts by training from scratch on domain knowledge",
+        "authors": [
+            "Xiaoliang Luo",
+            "Guangzhi Sun",
+            "Bradley C. Love"
+        ],
+        "abstract": "Recently, large language models (LLMs) have outperformed human experts in predicting the results of neuroscience experiments (Luo et al., 2024). What is the basis for this performance? One possibility is that statistical patterns in that specific scientific literature, as opposed to emergent reasoning abilities arising from broader training, underlie LLMs' performance.\nTo evaluate this possibility, we trained (next word prediction) a relatively small 124M-parameter GPT-2 model on 1.3 billion tokens of domain-specific knowledge. Despite being orders of magnitude smaller than larger LLMs trained on trillions of tokens, small models achieved expert-level performance in predicting neuroscience results. Small models trained on the neuroscience literature succeeded when they were trained from scratch using a tokenizer specifically trained on neuroscience text or when the neuroscience literature was used to finetune a pretrained GPT-2. Our results indicate that expert-level performance may be attained by even small LLMs through domain-specific, auto-regressive training approaches.",
+        "pdf": "/pdf/54fd7e9f250e2b6e8f68828b6e09caaf38b73375.pdf",
+        "keywords": [
+            "Large Language Models",
+            "Neuroscience",
+            "Scientific Discovery"
+        ],
+        "bibtex": "@inproceedings{\nluo2024matching,\ntitle={Matching domain experts by training from scratch on domain knowledge},\nauthor={Xiaoliang Luo and Guangzhi Sun and Bradley C. Love},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=nPbfr8wGkD}\n}",
+        "number": 5,
+        "session": "Poster Session 1",
+        "id": 4
+    },
+    {
+        "title": "Is persona enough for personality? Using ChatGPT to reconstruct an agent's latent personality from simple descriptions",
+        "authors": [
+            "Yongyi Ji",
+            "Zhisheng Tang",
+            "Mayank Kejriwal"
+        ],
+        "abstract": "Personality, a fundamental aspect of human cognition, contains a range of traits that influence behaviors, thoughts, and emotions. This paper explores the capabilities of large language models (LLMs) in reconstructing these complex cognitive attributes based only on simple descriptions containing socio-demographic and personality type information. Utilizing the HEXACO personality framework, our study examines the consistency of LLMs in recovering and predicting underlying (latent) personality dimensions from simple descriptions. Our experiments reveal a significant degree of consistency in personality reconstruction, although some inconsistencies and biases, such as a tendency to default to positive traits in the absence of explicit information, are also observed. Additionally, socio-demographic factors like age and number of children were found to influence the reconstructed personality dimensions. These findings have implications for building sophisticated agent-based simulacra using LLMs and highlight the need for further research on robust personality generation in LLMs.",
+        "pdf": "/pdf/c220e4b390037dfc0fd76ddd74e8922398e99ee6.pdf",
+        "keywords": [
+            "large language model",
+            "cognitive ability",
+            "personality",
+            "LLM agent",
+            "HEXACO personality framework"
+        ],
+        "bibtex": "@inproceedings{\nji2024is,\ntitle={Is persona enough for personality? Using Chat{GPT} to reconstruct an agent's latent personality from simple descriptions},\nauthor={Yongyi Ji and Zhisheng Tang and Mayank Kejriwal},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=irDFYSHP0a}\n}",
+        "number": 6,
+        "session": "Poster Session 1",
+        "id": 5
+    },
+    {
+        "title": "Large Language Models Lack Understanding of Character Composition of Words",
+        "authors": [
+            "Andrew Shin",
+            "Kunitake Kaneko"
+        ],
+        "abstract": "Large language models (LLMs) have demonstrated remarkable performances on a wide range of natural language tasks. Yet, LLMs' successes have been largely restricted to tasks concerning words, sentences, or documents, and it remains questionable how much they understand the minimal units of text, namely characters. In this paper, we examine contemporary LLMs regarding their ability to understand character composition of words, and show that most of them fail to reliably carry out even the simple tasks that can be handled by humans with perfection. We analyze their behaviors with comparison to token level performances, and discuss the potential directions for future research.",
+        "pdf": "/pdf/beecce4c45896b4f57a0f2eb6062ad9c8ca33428.pdf",
+        "keywords": [
+            "LLMs",
+            "character embedding",
+            "word embedding"
+        ],
+        "bibtex": "@inproceedings{\nshin2024large,\ntitle={Large Language Models Lack Understanding of Character Composition of Words},\nauthor={Andrew Shin and Kunitake Kaneko},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=oP5FXcPAeG}\n}",
+        "number": 7,
+        "session": "Poster Session 1",
+        "id": 6
+    },
+    {
+        "title": "A Case-based Reasoning Approach to Dynamic Few-Shot Prompting for Code Generation",
+        "authors": [
+            "Dustin Dannenhauer",
+            "Zohreh Dannenhauer",
+            "Despina Christou",
+            "Kostas Hatalis"
+        ],
+        "abstract": "Large language models have recently succeeded in various code generation tasks but still struggle with generating task plans for complex, real-world problems that need detailed, context-aware planning and execution. This work aims to enhance these models' accuracy in generating task plans from natural language instructions. These tasks plans, represented as python code, use custom functions to accomplish the user's request as specified in natural language. The task plans are multi-step, often include loops, and are executed in a python runtime environment. Our approach uses case-based reasoning to perform dynamic few-shot prompting to improve the large language models ability to accurately follow planning prompts. We compare the effectiveness of dynamic prompting with static three-shot and zero-shot prompting approaches finding that dynamic prompting improves the accuracy of the generated code. Additionally, we identify and discuss seven types of failures in code generation.",
+        "pdf": "/pdf/f2d10bfca1b7d9f6f0a87144fee8e775cba6701a.pdf",
+        "keywords": [
+            "case-based reasoning",
+            "few-shot prompting",
+            "large language models",
+            "code generation"
+        ],
+        "bibtex": "@inproceedings{\ndannenhauer2024a,\ntitle={A Case-based Reasoning Approach to Dynamic Few-Shot Prompting for Code Generation},\nauthor={Dustin Dannenhauer and Zohreh Dannenhauer and Despina Christou and Kostas Hatalis},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=Kt9bM32oDY}\n}",
+        "number": 8,
+        "session": "Poster Session 1",
+        "id": 7
+    },
+    {
+        "title": "Cognitive Assessment of Language Models",
+        "authors": [
+            "Daniel McDuff",
+            "David Munday",
+            "Xin Liu",
+            "Isaac Galatzer-Levy"
+        ],
+        "abstract": "Large language models (LLMs) are a subclass of generative artificial intelligence that can interpret language inputs to generate novel responses. These capabilities are conceptualized as a significant step forward in artificial intelligence because the models can seemingly better mimic the thinking and reasoning of human cognition compared to earlier generations of machine learning models that were limited to identifying numeric classes and clusters. Benchmarks for performance are necessary for tracking progress of these models and many existing tasks have served as useful tools. In the current work, we propose a set of such tasks inspired by evidence-based human cognitive assessments from the field of (neuro)psychology and create a battery of questions called the \\textbf{Cognitive Assessments for Language Models (CALM) dataset}. We investigate the capabilities of LLMs to perform in distinct domains of cognitive performance including numeric reasoning, visual spatial reasoning, attention, simple, working, and short term memory, executive functioning, among others. We compare performance across tasks in relation to the size of the LLM. Results demonstrate wide variability in performance in distinct cognitive domains. Of note, the number of parameters was predictive of performance on executive functioning, reasoning, and memory tasks. All models performed strongly at real world reasoning and narrative interpretation tasks. Models universally performed poorly on visual-spatial reasoning tasks.",
+        "pdf": "/pdf/38c9fa4e35e973766aa5ac2aa8594bb790350a41.pdf",
+        "keywords": [
+            "Language Models",
+            "LLM",
+            "Cognition",
+            "Assessment"
+        ],
+        "bibtex": "@inproceedings{\nmcduff2024cognitive,\ntitle={Cognitive Assessment of Language Models},\nauthor={Daniel McDuff and David Munday and Xin Liu and Isaac Galatzer-Levy},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=pxRh1meUvN}\n}",
+        "number": 9,
+        "session": "Poster Session 1",
+        "id": 8
+    },
+    {
+        "title": "A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners",
+        "authors": [
+            "Bowen Jiang",
+            "Yangxinyu Xie",
+            "Zhuoqun Hao",
+            "Xiaomeng Wang",
+            "Tanwi Mallick",
+            "Weijie J Su",
+            "Camillo Jose Taylor",
+            "Dan Roth"
+        ],
+        "abstract": "This study proposes a hypothesis-testing framework to determine whether large language models (LLMs) possess genuine reasoning abilities or rely on token bias. Carefully-controlled synthetic datasets are generated, and null hypotheses assuming LLMs' reasoning capabilities are tested with statistical guarantees. Inconsistent behavior during experiments leads to the rejection of null hypotheses. Our findings, using the conjunction fallacy as a quintessential example, suggest that current LLMs still struggle with probabilistic reasoning, with apparent performance improvements largely attributable to token bias.",
+        "pdf": "/pdf/5f257fde584a3a8a4294ab475906f181f794622a.pdf",
+        "keywords": [
+            "reasoning capability",
+            "llm reasoning",
+            "large language models",
+            "token bias",
+            "hypothesis testing",
+            "logical fallacy"
+        ],
+        "bibtex": "@inproceedings{\njiang2024a,\ntitle={A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners},\nauthor={Bowen Jiang and Yangxinyu Xie and Zhuoqun Hao and Xiaomeng Wang and Weijie J Su and Tanwi Mallick and Camillo Jose Taylor and Dan Roth},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=ct5po1V3VT}\n}",
+        "number": 10,
+        "session": "Poster Session 1",
+        "id": 9
+    },
+    {
+        "title": "Recursive Introspection: Teaching LLM Agents How to Self-Improve",
+        "authors": [
+            "Yuxiao Qu",
+            "Tianjun Zhang",
+            "Naman Garg",
+            "Aviral Kumar"
+        ],
+        "abstract": "A central piece in enabling intelligent agentic behavior in foundation models is to make them capable of introspecting upon their behavior, to reason and correct their mistakes. In this paper, we introduce $\\textbf{RISE}$: $\\textbf{R}$ecursive $\\textbf{I}$ntro$\\textbf{S}$p$\\textbf{E}$ction, an approach for fine-tuning large language models (LLMs) to enable introspection and self-correction. $\\textbf{RISE}$ prescribes an iterative fine-tuning procedure that teaches the model to alter its response after seeing previously unsuccessful attempts to solve a problem with additional environment feedback. Inspired by online imitation learning, we derive strategies for multi-turn data collection and training to imbue an LLM with the capability to recursively detect and correct its mistakes in subsequent iterations. Experiments show that $\\textbf{RISE}$ enables 7B Llama2 and Mistral models to improve themselves with more turns on math reasoning tasks, outperforming single-turn strategies given equal inference-time computation, without disrupting one-turn abilities.",
+        "pdf": "/pdf/7fd52f79655ab739aa255c8a73e2d90851356851.pdf",
+        "keywords": [
+            "Large Language Model",
+            "Reinforcement Learning",
+            "Self-Improvement"
+        ],
+        "bibtex": "@inproceedings{\nqu2024recursive,\ntitle={Recursive Introspection: Teaching {LLM} Agents How to Self-Improve},\nauthor={Yuxiao Qu and Tianjun Zhang and Naman Garg and Aviral Kumar},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=ze0nodITam}\n}",
+        "number": 11,
+        "session": "Poster Session 1",
+        "id": 10
+    },
+    {
+        "title": "Babysit A Language Model From Scratch: Interactive Language Learning by Trials and Demonstrations",
+        "authors": [
+            "Ziqiao Ma",
+            "Zekun Wang",
+            "Joyce Chai"
+        ],
+        "abstract": "Humans are efficient language learners and inherently social creatures. Our language development is largely shaped by our social interactions, for example, the demonstration and feedback from caregivers. Contrary to human language learning, recent advancements in large language models have primarily adopted a non-interactive training paradigm, and refined pre-trained models through feedback afterward. In this work, we aim to examine how corrective feedback from interactions influences neural language acquisition from the ground up through systematically controlled experiments, assessing whether it contributes to learning efficiency in language models. We introduce a trial-and-demonstration (TnD) learning framework that incorporates three distinct components: student trials, teacher demonstrations, and a reward conditioned on language competence at various developmental stages. Our experiments reveal that the TnD approach accelerates word acquisition for student models of equal and smaller numbers of parameters, and we highlight the significance of both trials and demonstrations. We further show that the teacher's choices of words influence students' word-specific learning efficiency, and a practice-makes-perfect effect is evident by a strong correlation between the frequency of words in trials and their respective learning curves. Our findings suggest that interactive language learning, with teacher demonstrations and active trials, can facilitate efficient word learning in language models.",
+        "pdf": "/pdf/967917968626dd9a14c8167b93e15094677474f5.pdf",
+        "keywords": [
+            "Interactive Learning",
+            "Language Acquisition",
+            "Efficient Language Learning",
+            "Learning from Demonstration"
+        ],
+        "bibtex": "@inproceedings{\nma2024babysit,\ntitle={Babysit A Language Model From Scratch: Interactive Language Learning by Trials and Demonstrations},\nauthor={Ziqiao Ma and Zekun Wang and Joyce Chai},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=NOMO8x8dON}\n}",
+        "number": 12,
+        "session": "Poster Session 1",
+        "id": 11
+    },
+    {
+        "title": "Uncovering Latent Memories: Assessing Data Leakage and Memorization Patterns in Large Language Models",
+        "authors": [
+            "Sunny Duan",
+            "Mikail Khona",
+            "Abhiram Iyer",
+            "Rylan Schaeffer",
+            "Ila R Fiete"
+        ],
+        "abstract": "The proliferation of large language models has revolutionized natural language processing tasks, yet it raises profound concerns regarding data privacy and security. Language models are trained on extensive corpora including potentially sensitive or proprietary information, and the risk of data leakage --- where the model response reveals pieces of such information --- remains inadequately understood. This study examines susceptibility to data leakage by quantifying the phenomenon of memorization in machine learning models, focusing on the evolution of memorization patterns over training. We reproduce findings that the probability of memorizing a sequence scales logarithmically with the number of times it is present in the data. Furthermore, we find that sequences which are not apparently memorized after the first encounter can be \"uncovered\" throughout the course of training even without subsequent encounters. The presence of these \"latent\" memorized sequences presents a challenge for data privacy since they may be hidden at the final checkpoint of the model. To this end, we develop a diagnostic test for uncovering these latent memorized sequences by considering their cross entropy loss.",
+        "pdf": "/pdf/825ef5cb20658eb7b80fba190e3a72f42988ed54.pdf",
+        "keywords": [
+            "LLMs",
+            "Mechanistic Intepretability",
+            "Memorization"
+        ],
+        "bibtex": "@inproceedings{\nduan2024uncovering,\ntitle={Uncovering Latent Memories: Assessing Data Leakage and Memorization Patterns in Large Language Models},\nauthor={Sunny Duan and Mikail Khona and Abhiram Iyer and Rylan Schaeffer and Ila R Fiete},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=j2DSb1bDHY}\n}",
+        "number": 13,
+        "session": "Poster Session 1",
+        "id": 12
+    },
+    {
+        "title": "A Human-Like Reasoning Framework for Multi-Phases Planning Task with Large Language Models",
+        "authors": [
+            "Chengxing Xie",
+            "Difan Zou"
+        ],
+        "abstract": "Recent studies have highlighted their proficiency in some simple tasks like writing and coding through various reasoning strategies. However, LLM agents still struggle with tasks that require comprehensive planning, a process that challenges current models and remains a critical research issue. In this study, we concentrate on travel planning, a Multi-Phases planning problem, that involves multiple interconnected stages, such as outlining, information gathering, and planning, often characterized by the need to manage various constraints and uncertainties. Existing reasoning approaches have struggled to effectively address this complex task.\nOur research aims to address this challenge by developing a human-like planning framework for LLM agents, i.e., guiding the LLM agent to simulate various steps that humans take when solving Multi-Phases problems. Specifically, we implement several strategies to enable LLM agents to generate a coherent outline for each travel query, mirroring human planning patterns. Additionally, we integrate Strategy Block and Knowledge Block into our framework: Strategy Block facilitates information collection, while Knowledge Block provides essential information for detailed planning. Through our extensive experiments, we demonstrate that our framework significantly improves the planning capabilities of LLM agents, enabling them to tackle the travel planning task with improved efficiency and effectiveness. Our experimental results showcase the exceptional performance of the proposed framework; when combined with GPT-4-Turbo, it attains $10\\times$ the performance gains in comparison to the baseline framework deployed on GPT-4-Turbo.",
+        "pdf": "/pdf/74a6780c81ebfb089aa0364a7769edd05e943f24.pdf",
+        "keywords": [
+            "LLM Agents",
+            "Human-Like Reasoning Framework"
+        ],
+        "bibtex": "@inproceedings{\nxie2024a,\ntitle={A Human-Like Reasoning Framework for Multi-Phases Planning Task with Large Language Models},\nauthor={Chengxing Xie and Difan Zou},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=BX6wC2452j}\n}",
+        "number": 15,
+        "session": "Poster Session 1",
+        "id": 13
+    },
+    {
+        "title": "Is Self-knowledge and Action Consistent or Not:  Investigating Large Language Model's Personality",
+        "authors": [
+            "Yiming Ai",
+            "Zhiwei He",
+            "Ziyin Zhang",
+            "Wenhong Zhu",
+            "Hongkun Hao",
+            "Kai Yu",
+            "Lingjun Chen",
+            "Rui Wang"
+        ],
+        "abstract": "In this study, we delve into the validity of conventional personality questionnaires in capturing the human-like personality traits of Large Language Models (LLMs). Our objective is to assess the congruence between the personality traits LLMs claim to possess and their demonstrated tendencies in real-world scenarios. By conducting an extensive examination of LLM outputs against observed human response patterns, we aim to understand the disjunction between self-knowledge and action in LLMs.",
+        "pdf": "/pdf/0b31ba48eaa20da69c8b4bc31451b75b93262a0d.pdf",
+        "keywords": [
+            "Psycholinguistics",
+            "Self-knowledge-Action Congruence",
+            "Benchmark"
+        ],
+        "bibtex": "@inproceedings{\nai2024is,\ntitle={Is Self-knowledge and Action Consistent or Not:  Investigating Large Language Model's Personality},\nauthor={Yiming Ai and Zhiwei He and Ziyin Zhang and Wenhong Zhu and Hongkun Hao and Kai Yu and Lingjun Chen and Rui Wang},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=l1MKBmMoyH}\n}",
+        "number": 17,
+        "session": "Poster Session 1",
+        "id": 14
+    },
+    {
+        "title": "Learning sequence models through consolidation",
+        "authors": [
+            "Eleanor Spens",
+            "Neil Burgess"
+        ],
+        "abstract": "Episodic memory is a reconstructive process, thought to depend on schema-based predictions made by generative models learned through systems consolidation. We extend previous work on memory for static scenes to model the construction and consolidation of sequential experience. After sequences are encoded in the hippocampus, a network is trained to predict the next item in a sequence during replay (simulated by training GPT-2 on a range of stimuli). The resulting model can memorise narratives, with characteristic gist-based distortions, and can also be applied to non-linguistic tasks such as spatial and relational inference. In addition, we explore `retrieval augmented generation', in which sequence generation is conditioned on relevant \u2018memories\u2019, as a model for how hippocampal specifics can be combined with neocortical general knowledge.",
+        "pdf": "/pdf/df75f501f074f2856f883ada513d89727c44f562.pdf",
+        "keywords": [
+            "neuroscience",
+            "large language models",
+            "consolidation"
+        ],
+        "bibtex": "@inproceedings{\nspens2024learning,\ntitle={Learning sequence models through consolidation},\nauthor={Eleanor Spens and Neil Burgess},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=Agw85WCD5w}\n}",
+        "number": 18,
+        "session": "Poster Session 1",
+        "id": 15
+    },
+    {
+        "title": "Code Agents are State of The Art Software Testers",
+        "authors": [
+            "Niels M\u00fcndler",
+            "Mark Niklas Mueller",
+            "Jingxuan He",
+            "Martin Vechev"
+        ],
+        "abstract": "Rigorous software testing is crucial for developing and maintaining high-quality code, making automated test generation a promising avenue for both improving software quality and boosting the effectiveness of code generation methods. However, while code generation with Large Language Models (LLMs) is an extraordinarily active research area, test generation remains relatively unexplored. We address this gap and investigate the capability of LLM-based Code Agents for formalizing user issues into test cases. To this end, we propose a novel benchmark based on popular GitHub repositories, containing real-world issues, ground-truth patches, and golden tests. We find that LLMs generally perform surprisingly well at generating relevant test cases with Code Agents designed for code repair, exceeding the performance of systems designed specifically for test generation. Finally, we find that generated tests are an effective filter for proposed code fixes, doubling the precision of SWE-Agent.",
+        "pdf": "/pdf/533088e83b2aa7af36107689dfa5b54b07a9725a.pdf",
+        "keywords": [
+            "language model",
+            "test generation",
+            "code agent",
+            "code repair"
+        ],
+        "bibtex": "@inproceedings{\nm{\\\"u}ndler2024code,\ntitle={Code Agents are State of The Art Software Testers},\nauthor={Niels M{\\\"u}ndler and Mark Niklas Mueller and Jingxuan He and Martin Vechev},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=2P3LLI5ofh}\n}",
+        "number": 19,
+        "session": "Poster Session 1",
+        "id": 16
+    },
+    {
+        "title": "LLM Sample: part average and part ideal",
+        "authors": [
+            "Sarath Sivaprasad",
+            "Pramod Kaushik",
+            "Sahar Abdelnabi",
+            "Mario Fritz"
+        ],
+        "abstract": "As Large Language Models (LLMs) increasingly impact society, it's crucial to understand the heuristics and biases that drive them.\nWe study the response sampling of LLMs in light of value bias\u2014a tendency to favour high-value options in their outputs. Value bias corresponds to the shift of response from the most likely sample towards some notion of ideal value represented in the LLM.\nOur study identifies value bias in existing and new concepts learned in context. We demonstrate that this bias significantly impacts applications such as patient recovery times. These findings highlight the need to address value bias in LLM deployment to ensure fair and balanced AI applications.",
+        "pdf": "/pdf/20f4ec67e2e561522d34db91edda03a33d16da23.pdf",
+        "keywords": [
+            "Value bias",
+            "sampling bias",
+            "high value options"
+        ],
+        "bibtex": "@inproceedings{\nsivaprasad2024llm,\ntitle={{LLM} Sample: part average and part ideal},\nauthor={Sarath Sivaprasad and Pramod Kaushik and Sahar Abdelnabi and Mario Fritz},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=vugcfDyp6t}\n}",
+        "number": 20,
+        "session": "Poster Session 1",
+        "id": 17
+    },
+    {
+        "title": "From Words to Worlds: Compositionality for Cognitive Architectures",
+        "authors": [
+            "Ruchira Dhar",
+            "Anders S\u00f8gaard"
+        ],
+        "abstract": "Large language models (LLMs) are very performant connectionist systems, but do they exhibit more compositionality? More importantly, is that part of why they perform so well? We present empirical analyses across four LLM families (12 models) and three task categories, including a novel task introduced below. Our findings reveal a nuanced relationship in learning of compositional strategies by LLMs -- while scaling enhances compositional abilities, instruction tuning often has a reverse effect. Such disparity brings forth some open issues regarding the development and improvement of large language models in alignment with human cognitive capacities.",
+        "pdf": "/pdf/778318b35fb3691df55cfd207320c27f08f47452.pdf",
+        "keywords": [
+            "Compositionality",
+            "Reasoning",
+            "LLM",
+            "Cognition"
+        ],
+        "bibtex": "@inproceedings{\ndhar2024from,\ntitle={From Words to Worlds: Compositionality for Cognitive Architectures},\nauthor={Ruchira Dhar and Anders S{\\o}gaard},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=2eA9b52PAW}\n}",
+        "number": 21,
+        "session": "Poster Session 1",
+        "id": 18
+    },
+    {
+        "title": "Verbalized Machine Learning: Revisiting Machine Learning with Language Models",
+        "authors": [
+            "Tim Z. Xiao",
+            "Robert Bamler",
+            "Bernhard Sch\u00f6lkopf",
+            "Weiyang Liu"
+        ],
+        "abstract": "Motivated by the large progress made by large language models (LLMs), we introduce the framework of verbalized machine learning (VML). In contrast to conventional machine learning models that are typically optimized over a continuous parameter space, VML constrains the parameter space to be human-interpretable natural language. Such a constraint leads to a new perspective of function approximation, where an LLM with a text prompt can be viewed as a function parameterized by the text prompt. Guided by this perspective, we revisit classical machine learning problems, such as regression and classification, and find that these problems can be solved by an LLM-parameterized learner and optimizer. The major advantages of VML include (1) easy encoding of inductive bias, (2) automatic model selection and (3) interpretable learner update.",
+        "pdf": "/pdf/1662e597d6a00ee5b1185eada2f3b9b67c6f73d2.pdf",
+        "keywords": [
+            "Large Language Models",
+            "Optimization",
+            "Interpretable Machine Learning"
+        ],
+        "bibtex": "@inproceedings{\nxiao2024verbalized,\ntitle={Verbalized Machine Learning: Revisiting Machine Learning with Language Models},\nauthor={Tim Z. Xiao and Robert Bamler and Bernhard Sch{\\\"o}lkopf and Weiyang Liu},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=IlPMQVI7ez}\n}",
+        "number": 22,
+        "session": "Poster Session 1",
+        "id": 19
+    },
+    {
+        "title": "Multi-Modal and Multi-Agent Systems Meet Rationality: A Survey",
+        "authors": [
+            "Bowen Jiang",
+            "Yangxinyu Xie",
+            "Xiaomeng Wang",
+            "Weijie J Su",
+            "Camillo Jose Taylor",
+            "Tanwi Mallick"
+        ],
+        "abstract": "Rationality is characterized by logical thinking and decision-making that align with evidence and logical rules. This quality is essential for effective problem-solving, as it ensures that solutions are well-founded and systematically derived. Despite the advancements of large language models (LLMs) in generating human-like text with remarkable accuracy, they present  biases inherited from the training data, inconsistency across different contexts, and difficulty understanding complex scenarios. Therefore, recent research attempts to leverage the strength of multiple agents working collaboratively with various types of data and tools for enhanced consistency and reliability. To that end, this survey aims to define some axioms of rationality, understand whether multi-modal and multi-agent systems are advancing toward rationality, identify their advancements over single-agent, language-only baselines, and discuss open problems and future directions.",
+        "pdf": "/pdf/e7bea0d6ac0be135267bd99be362491d2a123ff9.pdf",
+        "keywords": [
+            "multi-modality",
+            "multi-agents",
+            "large language models",
+            "rationality",
+            "agents"
+        ],
+        "bibtex": "@inproceedings{\njiang2024multimodal,\ntitle={Multi-Modal and Multi-Agent Systems Meet Rationality: A Survey},\nauthor={Bowen Jiang and Yangxinyu Xie and Xiaomeng Wang and Weijie J Su and Camillo Jose Taylor and Tanwi Mallick},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=9Rtm2gAVjo}\n}",
+        "number": 23,
+        "session": "Poster Session 2",
+        "id": 64
+    },
+    {
+        "title": "iWISDM: Assessing instruction following in multimodal models at scale",
+        "authors": [
+            "Xiaoxuan Lei",
+            "Lucas Gomez",
+            "Hao Yuan Bai",
+            "Pouya Bashivan"
+        ],
+        "abstract": "The ability to perform complex tasks from detailed instructions is a key to the remarkable achievements of our species. As humans, we are not only capable of performing a wide variety of tasks but also very complex ones that may entail hundreds or thousands of steps to complete. Large language models and their more recent multimodal counterparts that integrate textual and visual inputs have achieved unprecedented success in performing complex tasks. Yet, most existing benchmarks are largely confined to single-modality inputs \u2014 either text or vision \u2014 and thus, narrowing the scope of multimodal integration assessments, particularly for instruction-following in multimodal contexts. To bridge this gap, we introduce the instructed-Virtual VISual Decision Making (iWISDM) environment engineered to generate a limitless array of vision-language tasks of varying complexity. Using iWISDM, we compiled three distinct benchmarks of instruction following visual tasks across varying complexity levels and evaluated several newly developed multimodal models on these benchmarks. Our findings establish iWISDM as a robust benchmark for assessing the instructional adherence of both existing and emergent multimodal models and highlight a large gap in these models\u2019 ability to precisely follow instructions.",
+        "pdf": "/pdf/0bef78ddd1eecf62b1ca10184cbcf27bb8bbfd51.pdf",
+        "keywords": [
+            "Multi-Task Learning",
+            "benchmarks; large multimodal models; instruction following"
+        ],
+        "bibtex": "@inproceedings{\nlei2024iwisdm,\ntitle={i{WISDM}: Assessing instruction following in multimodal models at scale},\nauthor={Xiaoxuan Lei and Lucas Gomez and Hao Yuan Bai and Pouya Bashivan},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=imaxKOfSmy}\n}",
+        "number": 24,
+        "session": "Poster Session 1",
+        "id": 20
+    },
+    {
+        "title": "Modeling Bilingual Disfluencies with Large Language Models",
+        "authors": [
+            "Negin Raoof",
+            "Yating Wu",
+            "Carlos Bonilla",
+            "Junyi Jessy Li",
+            "Stephanie M Grasso",
+            "Alex Dimakis",
+            "Zoi Gkalitsiou"
+        ],
+        "abstract": "Speech disfluency metrics are commonly used for informing diagnosis and treatment of various communication disorders. However, bilingual speakers exhibit unique speech disfluency patterns, increasing the difficulty of speech and language disorder diagnosis in bilingual children and adults.\nWe propose and train models for predicting disfluencies in monolingual and bilingual speakers, using LLMs and a modern machine learning pipeline. We use a novel bilingual dataset with detailed annotated disfluencies and participant information. We find that disfluencies tend to happen at high surprisal words, validating surprisal theory for both monolinguals and bilinguals. We also find some interesting differences in the manifestation of disfluencies between bilingual and monolingual speakers.",
+        "pdf": "/pdf/0673ae1419de15594db575e96264285f32142489.pdf",
+        "keywords": [
+            "Speech Disfluencies",
+            "Large Language Models"
+        ],
+        "bibtex": "@inproceedings{\nraoof2024modeling,\ntitle={Modeling Bilingual Disfluencies with Large Language Models},\nauthor={Negin Raoof and Yating Wu and Carlos Bonilla and Junyi Jessy Li and Stephanie M Grasso and Alex Dimakis and Zoi Gkalitsiou},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=rrNAqNYRLA}\n}",
+        "number": 25,
+        "session": "Poster Session 1",
+        "id": 21
+    },
+    {
+        "title": "Towards Human-AI Collaboration in Healthcare: Guided Deferral Systems with Large Language Models",
+        "authors": [
+            "Joshua Strong",
+            "Qianhui Men",
+            "Alison Noble"
+        ],
+        "abstract": "Large language models (LLMs) present a valuable technology for various applications in healthcare, but their tendency to hallucinate introduces unacceptable uncertainty in critical decision-making situations. Human-AI collaboration (HAIC) can mitigate this uncertainty by combining human and AI strengths for better outcomes. This paper presents a novel *guided deferral* system that provides intelligent guidance when AI defers cases to human decision-makers. We leverage LLMs' verbalisation capabilities and internal states to create this system, demonstrating that fine-tuning small-scale LLMs with data from large-scale LLMs greatly enhances performance while maintaining computational efficiency and data privacy. A pilot study showcases the effectiveness of our proposed deferral system.",
+        "pdf": "/pdf/87ee37a9b54fb87baa7e50c49cb75b62bc51fe98.pdf",
+        "keywords": [
+            "Large Language Models",
+            "Human-AI Collaboration",
+            "Healthcare",
+            "Medical Report Parsing"
+        ],
+        "bibtex": "@inproceedings{\nstrong2024towards,\ntitle={Towards Human-{AI} Collaboration in Healthcare: Guided Deferral Systems with Large Language Models},\nauthor={Joshua Strong and Qianhui Men and Alison Noble},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=4c5rg9y4me}\n}",
+        "number": 26,
+        "session": "Poster Session 1",
+        "id": 22
+    },
+    {
+        "title": "Transformers Can Do Arithmetic with the Right Embeddings",
+        "authors": [
+            "Sean Michael McLeish",
+            "Arpit Bansal",
+            "Alex Stein",
+            "Neel Jain",
+            "John Kirchenbauer",
+            "Brian R. Bartoldson",
+            "Bhavya Kailkhura",
+            "Abhinav Bhatele",
+            "Jonas Geiping",
+            "Avi Schwarzschild",
+            "Tom Goldstein"
+        ],
+        "abstract": "The poor performance of transformers on arithmetic tasks seems to stem in large part from their inability to keep track of the exact position of each digit inside of a large span of digits. We mend this problem by adding an embedding to each digit that encodes its position relative to the start of the number. In addition to the boost these embeddings provide on their own, we show that this fix enables architectural modifications such as input injection and recurrent layers to improve performance even further.\n\nWith positions resolved, we can study the logical extrapolation ability of transformers. Can they solve arithmetic problems that are larger and more complex than those in their training data? We find that training on only 20 digit numbers with a single GPU for one day, we can reach state-of-the-art performance, achieving up to 99% accuracy on 100 digit addition problems. Finally, we show that these gains in numeracy also unlock improvements on other multi-step reasoning tasks including sorting and multiplication.",
+        "pdf": "/pdf/8127d2404f27feaf595115cb0fef3e4efac3ab77.pdf",
+        "keywords": [
+            "Algorithmic Generalization",
+            "Arithmetic",
+            "Transformer",
+            "Recurrent"
+        ],
+        "bibtex": "@inproceedings{\nmcleish2024transformers,\ntitle={Transformers Can Do Arithmetic with the Right Embeddings},\nauthor={Sean Michael McLeish and Arpit Bansal and Alex Stein and Neel Jain and John Kirchenbauer and Brian R. Bartoldson and Bhavya Kailkhura and Abhinav Bhatele and Jonas Geiping and Avi Schwarzschild and Tom Goldstein},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=KD9pZCuOVz}\n}",
+        "number": 28,
+        "session": "Poster Session 1",
+        "id": 23
+    },
+    {
+        "title": "Position Paper: Dual-System Language Models via Next-Action Prediction",
+        "authors": [
+            "Zhehang Du",
+            "Weijie J Su"
+        ],
+        "abstract": "In current Large Language Model (LLM) practices, each token is appended sequentially to the output. In contrast, humans are capable of revising and correcting what we write. Inspired by this gap, in this position paper, we propose a dual-system to simultaneously model the thought process and the output process via the introduction of action tokens. This is achieved by (a) maintaining two sequences of tokens, which include a thought system simulating the human thought process and an output system for storing responses, and (b) introducing removal tokens as action tokens: when a removal token is generated, it is appended only to the thought system, while simultaneously removing certain tokens from the output system. The model uses both systems for next-action prediction. This method allows the retraction of previously generated tokens in the final response and maintains a record of intermediate steps in the thought system. Our framework enables the training of language models to improve the interaction between the thought and output systems, mirroring the way humans refine their thinking for effective written communication. Moreover, it can be implemented with slight modifications to existing LLM architectures and allows for end-to-end training.",
+        "pdf": "/pdf/45875f3da0991c1f57885cdbb653e82a1b674983.pdf",
+        "keywords": [
+            "language models",
+            "dual-system model",
+            "next-action prediction",
+            "mathematical reasoning"
+        ],
+        "bibtex": "@inproceedings{\ndu2024position,\ntitle={Position Paper: Dual-System Language Models via Next-Action Prediction},\nauthor={Zhehang Du and Weijie J Su},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=9ZVfz8DGC8}\n}",
+        "number": 29,
+        "session": "Poster Session 1",
+        "id": 24
+    },
+    {
+        "title": "Training Energy-Efficient Large Language Models Leveraging Equilibrium Driven Bio-Plausible Neural Dynamics",
+        "authors": [
+            "Malyaban Bal",
+            "Abhronil Sengupta"
+        ],
+        "abstract": "Large language Models (LLMs), though growing exceedingly powerful, comprises of orders of magnitude less neurons and synapses than the human brain. However, it requires significantly more power/energy to operate. In this work, we propose a novel bio-inspired spiking language model (LM) which aims to reduce the computational cost of conventional LMs by drawing motivation from the synaptic information flow in the brain. In this paper, we demonstrate a framework that leverages the average spiking rate of neurons at equilibrium to train a neuromorphic spiking LM using implicit differentiation technique, thereby overcoming the non-differentiability problem of spiking neural network (SNN) based algorithms without using any type of surrogate gradient. The steady-state convergence of the spiking neurons also allows us to design a spiking attention mechanism, which is critical in developing a scalable spiking LM. Moreover, the convergence of average spiking rate of neurons at equilibrium is utilized to develop a novel ANN-SNN knowledge distillation based technique wherein we use a pre-trained BERT model as \"teacher\" to train our \"student\" spiking architecture. Our work is the first one to demonstrate the performance of an operational spiking LM architecture on multiple different tasks in the GLUE benchmark.",
+        "pdf": "/pdf/8344603296e9937d0cdd444d3b06df7cec8733fe.pdf",
+        "keywords": [
+            "Large Langauge models",
+            "Spiking Neural Networks",
+            "Neuromorphic Computing",
+            "Neuroscience"
+        ],
+        "bibtex": "@inproceedings{\nbal2024training,\ntitle={Training Energy-Efficient Large Language Models Leveraging Equilibrium Driven Bio-Plausible Neural Dynamics},\nauthor={Malyaban Bal and Abhronil Sengupta},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=Z4UrHWw79Q}\n}",
+        "number": 30,
+        "session": "Poster Session 1",
+        "id": 25
+    },
+    {
+        "title": "Improving Self Consistency in LLMs through Probabilistic Tokenization",
+        "authors": [
+            "Ashutosh Sathe",
+            "Divyanshu Aggarwal",
+            "Sunayana Sitaram"
+        ],
+        "abstract": "Prior research has demonstrated noticeable performance gains through the use of probabilistic tokenizations, an approach that involves employing multiple tokenizations of the same input string during the training phase of a language model. Despite these promising findings, modern large language models (LLMs) have yet to be trained using probabilistic tokenizations. Interestingly, while the tokenizers of these contemporary LLMs have the capability to generate multiple tokenizations, this property remains underutilized.\n\nIn this work, we propose a novel method to leverage the multiple tokenization capabilities of modern LLM tokenizers, aiming to enhance the self-consistency of LLMs in reasoning tasks. Our experiments indicate that when utilizing probabilistic tokenizations, LLMs generate logically diverse reasoning paths, moving beyond mere surface-level linguistic diversity. We carefully study probabilistic tokenization and offer insights to explain the self consistency improvements it brings through extensive experimentation on 5 LLM families and 4 reasoning benchmarks.",
+        "pdf": "/pdf/11f0542d261345a728dea52408f866d5d54bae24.pdf",
+        "keywords": [
+            "reasoning",
+            "probabilistic tokenization",
+            "diverse text generation"
+        ],
+        "bibtex": "@inproceedings{\nsathe2024improving,\ntitle={Improving Self Consistency in {LLM}s through Probabilistic Tokenization},\nauthor={Ashutosh Sathe and Divyanshu Aggarwal and Sunayana Sitaram},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=jcH9PWIcZA}\n}",
+        "number": 31,
+        "session": "Poster Session 1",
+        "id": 26
+    },
+    {
+        "title": "AutoGuide: Automated Generation and Selection of Context-Aware Guidelines for Large Language Model Agents",
+        "authors": [
+            "Yao Fu",
+            "Dong-Ki Kim",
+            "Jaekyeom Kim",
+            "Sungryull Sohn",
+            "Lajanugen Logeswaran",
+            "Kyunghoon Bae",
+            "Honglak Lee"
+        ],
+        "abstract": "Recent advances in large language models (LLMs) have empowered AI agents to perform various sequential decision-making tasks. However, effectively guiding LLMs to perform well in unfamiliar domains like web navigation, where they lack sufficient knowledge, has proven to be difficult with the demonstration-based in-context learning paradigm. In this paper, we introduce a novel framework, called AutoGuide, which addresses this limitation by automatically generating context-aware guidelines from offline experiences. As a result, our guidelines facilitate the provision of relevant knowledge for the agent's current decision-making process. Our evaluation demonstrates that AutoGuide significantly outperforms competitive baselines in complex benchmark domains.",
+        "pdf": "/pdf/ddcbb78701df6d252ae6ae2a75bfd820ec5fce63.pdf",
+        "keywords": [
+            "large language model agents",
+            "sequential decision-making"
+        ],
+        "bibtex": "@inproceedings{\nfu2024autoguide,\ntitle={AutoGuide: Automated Generation and Selection of Context-Aware Guidelines for Large Language Model Agents},\nauthor={Yao Fu and Dong-Ki Kim and Jaekyeom Kim and Sungryull Sohn and Lajanugen Logeswaran and Kyunghoon Bae and Honglak Lee},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=Zu1MihB661}\n}",
+        "number": 32,
+        "session": "Poster Session 1",
+        "id": 27
+    },
+    {
+        "title": "Lost in Translation: The Algorithmic Gap Between LMs and the Brain",
+        "authors": [
+            "Tosato Tommaso",
+            "Tikeng Notsawo Pascal Junior",
+            "Helbling Saskia",
+            "Irina Rish",
+            "Guillaume Dumas"
+        ],
+        "abstract": "Language Models (LMs) have achieved impressive performance on various linguistic tasks, but their relationship to human language processing in the brain remains unclear. This paper examines the gaps and overlaps between LMs and the brain at different levels of analysis, emphasizing the importance of looking beyond input-output behavior to examine and compare the internal processes of these systems. We discuss how insights from neuroscience, such as sparsity, modularity, internal states, and interactive learning, can inform the development of more biologically plausible language models. Furthermore, we explore the role of scaling laws in bridging the gap between LMs and human cognition, highlighting the need for efficiency constraints analogous to those in biological systems. By developing LMs that more closely mimic brain function, we aim to advance both artificial intelligence and our understanding of human cognition.",
+        "pdf": "/pdf/fcc1011dd43df5a9f55ae4f1fe9ad80af2a16df7.pdf",
+        "keywords": [
+            "Language Models",
+            "Neuroscience",
+            "Cognitive Science",
+            "Brain-Inspired AI",
+            "Mechanistic Interpretability",
+            "Algorithmic Correspondence",
+            "Representational Similarity",
+            "Sparse Connectivity",
+            "Compositional Reasoning",
+            "Interactive Learning"
+        ],
+        "bibtex": "@inproceedings{\ntommaso2024lost,\ntitle={Lost in Translation: The Algorithmic Gap Between {LM}s and the Brain},\nauthor={Tosato Tommaso and Tikeng Notsawo Pascal Junior and Helbling Saskia and Irina Rish and Guillaume Dumas},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=C5fntBpWxi}\n}",
+        "number": 33,
+        "session": "Poster Session 1",
+        "id": 28
+    },
+    {
+        "title": "Deep Content Understanding Toward Entity and Aspect Target Sentiment Analysis on Foundation Models",
+        "authors": [
+            "Vorakit Vorakitphan",
+            "Milos Basic",
+            "Guilhaume Leroy Meline"
+        ],
+        "abstract": "Introducing Entity-Aspect Sentiment Triplet Extraction (EASTE), a novel Aspect-Based Sentiment Analysis (ABSA) task which extends Target-Aspect-Sentiment Detection (TASD) by separating aspect categories (e.g., food\\#quality) into pre-defined entities (e.g., meal, drink) and aspects (e.g., taste, freshness) which add a fine-gainer level of complexity, yet help exposing true sentiment of chained aspect to its entity. We explore the task of EASTE solving capabilities of language models based on transformers architecture from our proposed unified-loss approach via token classification task using BERT architecture to text generative models such as Flan-T5, Flan-Ul2 to Llama2, Llama3 and Mixtral employing different alignment techniques such as zero/few-shot learning, Parameter Efficient Fine Tuning (PEFT) such as Low-Rank Adaptation (LoRA). The model performances are evaluated on the SamEval-2016 benchmark dataset representing the fair comparison to existing works. Our research not only aims to achieve high performance on the EASTE task but also investigates the impact of model size, type, and adaptation techniques on task performance. Ultimately, we provide detailed insights and achieving state-of-the-art results in complex sentiment analysis.",
+        "pdf": "/pdf/30084bc536bd69536eab9e94b68219ad7f3d12a5.pdf",
+        "keywords": [
+            "Sentiment Analysis",
+            "Aspect-based Sentiment Analysis",
+            "Generative AI"
+        ],
+        "bibtex": "@inproceedings{\nvorakitphan2024deep,\ntitle={Deep Content Understanding Toward Entity and Aspect Target Sentiment Analysis on Foundation Models},\nauthor={Vorakit Vorakitphan and Milos Basic and Guilhaume Leroy Meline},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=T1lTSAeDMx}\n}",
+        "number": 34,
+        "session": "Poster Session 1",
+        "id": 29
+    },
+    {
+        "title": "Abstract Understanding of Core-Knowledge Concepts: Humans vs. LLMs",
+        "authors": [
+            "Alessandro B. Palmarini",
+            "Melanie Mitchell"
+        ],
+        "abstract": "The ability to form and use abstractions in a few-shot manner is a key aspect of human cognition; it is this capacity that enables us to understand and act appropriately in novel situations.  In this paper we report on comparisons between humans and GPT-4V on visual tasks designed to systematically assess few-shot abstraction capabilities using core-knowledge concepts related to objectness, object motion, spatial configurations and relationships, and basic numerosity.   We test the impact of presenting tasks to GPT-4V using visual, mixed text-visual, and text-only representations. Our findings highlight that GPT-4V, one of today's most advanced multimodal LLMs, still lacks the flexible intelligence possessed by humans to efficiently relate different situations through novel abstractions.",
+        "pdf": "/pdf/7f7be1316f7a39006bf0492e589526df6887537c.pdf",
+        "keywords": [
+            "abstractions",
+            "analogies",
+            "concept induction",
+            "ARC",
+            "ConceptARC",
+            "multimodal LLMs",
+            "GPT-4V"
+        ],
+        "bibtex": "@inproceedings{\npalmarini2024abstract,\ntitle={Abstract Understanding of Core-Knowledge Concepts: Humans vs. {LLM}s},\nauthor={Alessandro B. Palmarini and Melanie Mitchell},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=bFWBD4UvUk}\n}",
+        "number": 35,
+        "session": "Poster Session 1",
+        "id": 30
+    },
+    {
+        "title": "Large Language Models are Bad Game Theoretic Reasoners: Evaluating Performance and Bias in Two-Player Non-Zero-Sum Games",
+        "authors": [
+            "Nathan Herr",
+            "Fernando Acero",
+            "Roberta Raileanu",
+            "Maria Perez-Ortiz",
+            "Zhibin Li"
+        ],
+        "abstract": "Large Language Models (LLMs) have been increasingly used in real-world settings, yet their strategic abilities remain largely unexplored. Game theory provides a good framework for assessing the decision-making abilities of LLMs in interactions with other agents. Although prior studies have shown that LLMs can solve these tasks with carefully curated prompts, they fail when the problem setting or prompt changes. In this work we investigate LLMs' behaviour in strategic games, Stag Hunt and Prisoner Dilemma, analyzing performance variations under different settings and prompts. We observed that the LLMs' performance drops when the game configuration is misaligned with the affecting biases. Performance is assessed based on selecting the correct action, which agrees with both players' prompted preferred behaviours. Alignment refers to whether the LLM's bias aligns with the correct action. We found that GPT-3.5, GPT-4-Turbo, and Llama-3-8B show an average performance drop when misaligned of 32\\%, 25\\%, and 29\\%, respectively in Stag Hunt, and 28\\%, 16\\%, and 24\\% respectively in Prisoners Dilemma. Our results show that the reason for this is that tested state-of-the-art LLMs are significantly affected by at least one of the following systematic biases: (1) positional bias, (2) payoff bias, or (3) behavioural bias.",
+        "pdf": "/pdf/209989a3759700c71dd554a9f25b6e38f65c103a.pdf",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Game Theory",
+            "Biases"
+        ],
+        "bibtex": "@inproceedings{\nherr2024large,\ntitle={Large Language Models are Bad Game Theoretic Reasoners: Evaluating Performance and Bias in Two-Player Non-Zero-Sum Games},\nauthor={Nathan Herr and Fernando Acero and Roberta Raileanu and Maria Perez-Ortiz and Zhibin Li},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=2nMql6TRsS}\n}",
+        "number": 36,
+        "session": "Poster Session 1",
+        "id": 31
+    },
+    {
+        "title": "Understanding the Cognitive Complexity in Language Elicited by Product Images",
+        "authors": [
+            "Yan-Ying Chen",
+            "Shabnam Hakimi",
+            "Monica P Van",
+            "Francine Chen",
+            "Matthew K Hong",
+            "Matthew Klenk",
+            "Charlene C. Wu"
+        ],
+        "abstract": "Product images (e.g., a phone) can be used to elicit a diverse set of consumer-reported features expressed through language, including surface-level perceptual attributes (e.g., \"white\") and more complex ones, like perceived utility (e.g., \"battery\"). The cognitive complexity of elicited language reveals the nature of cognitive processes and the context required to understand them; cognitive complexity also predicts consumers' subsequent choices. This work offers an approach for measuring and validating the cognitive complexity of human language elicited by product images, providing a tool for understanding the cognitive processes of human as well as virtual respondents simulated by Large Language Models (LLMs). We also introduce a large dataset that includes diverse descriptive labels for product images, including human-rated complexity. We demonstrate  that human-rated cognitive complexity can be approximated using a set of natural language models that, combined, roughly capture the complexity construct. Moreover, this approach is minimally supervised and scalable, even in use cases with limited human assessment of complexity.",
+        "pdf": "/pdf/f577d947e68d6856f2a9a9f45f21ce97585cc588.pdf",
+        "keywords": [
+            "Cognitive Complexity",
+            "Psychological Construct",
+            "Vision and Language Models"
+        ],
+        "bibtex": "@inproceedings{\nchen2024understanding,\ntitle={Understanding the Cognitive Complexity in Language Elicited by Product Images},\nauthor={Yan-Ying Chen and Shabnam Hakimi and Monica P Van and Francine Chen and Matthew K Hong and Matthew Klenk and Charlene C. Wu},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=9AuBWmQAcd}\n}",
+        "number": 37,
+        "session": "Poster Session 1",
+        "id": 32
+    },
+    {
+        "title": "Chain of LoRA: Efficient Fine-tuning of Language Models via Residual Learning",
+        "authors": [
+            "Wenhan Xia",
+            "Chengwei Qin",
+            "Elad Hazan"
+        ],
+        "abstract": "Fine-tuning is the primary methodology for tailoring pre-trained large language models to specific tasks. As the model's scale and the diversity of tasks expand, parameter-efficient fine-tuning methods are of paramount importance. One of the most widely used family of methods is low-rank adaptation (LoRA) and its variants. LoRA encodes weight update as the product of two low-rank matrices. Despite its advantages, LoRA falls short of full-parameter fine-tuning in terms of generalization error for certain tasks. \n\nWe introduce Chain of LoRA (COLA), an iterative optimization framework inspired by the Frank-Wolfe algorithm, to bridge the gap between LoRA and full parameter fine-tuning,  without incurring additional computational costs or memory overheads. COLA employs a residual learning procedure where it merges learned LoRA modules into the pre-trained language model parameters and re-initialize optimization for new born LoRA modules. We provide theoretical convergence guarantees as well as empirical results to validate the effectiveness of our algorithm. Across various models (OPT and Llama-2) and 11 benchmarking tasks, we demonstrate that COLA can consistently outperform LoRA without additional computational or memory costs.",
+        "pdf": "/pdf/a2ce695b2b635d4361ff75e57940173806687a44.pdf",
+        "keywords": [
+            "Parameter efficient fine-tuning",
+            "LLMs",
+            "optimization",
+            "efficiency"
+        ],
+        "bibtex": "@inproceedings{\nxia2024chain,\ntitle={Chain of Lo{RA}: Efficient Fine-tuning of Language Models via Residual Learning},\nauthor={Wenhan Xia and Chengwei Qin and Elad Hazan},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=G8iwtlHrTR}\n}",
+        "number": 38,
+        "session": "Poster Session 2",
+        "id": 33
+    },
+    {
+        "title": "SkillAct: Using Skill Abstractions Improves LLM Agents",
+        "authors": [
+            "Anthony Zhe Liu",
+            "Jongwook Choi",
+            "Sungryull Sohn",
+            "Yao Fu",
+            "Jaekyeom Kim",
+            "Dong-Ki Kim",
+            "Xinhe Wang",
+            "Jaewon Yoo",
+            "Honglak Lee"
+        ],
+        "abstract": "Complex sequential decision-making tasks often require hierarchical thinking and abstraction: breaking down these tasks into simpler subtasks that can be solved with reusable behaviors, or *skills*.\nIn this work, we show that large language models (LLMs) can benefit from using skill abstractions to solve interactive tasks successfully.\nWe propose a simple prompting approach named **SkillAct**, which can extend existing prompting approaches.\nIn addition, we demonstrate that these skill abstractions can be *learned* from few-shot demonstrations by prompting LLMs.\nWe demonstrate that **SkillAct** improves the performance of existing approaches such as ReAct on the interactive task benchmark ALFWorld.",
+        "pdf": "/pdf/bfff2c8e4152f4eb2eadcad6a5a347c364cb32c9.pdf",
+        "keywords": [
+            "large language models",
+            "skills",
+            "options",
+            "llm",
+            "llm agents",
+            "interactive tasks",
+            "planning",
+            "abstraction",
+            "hierarchical",
+            "embodied agents"
+        ],
+        "bibtex": "@inproceedings{\nliu2024skillact,\ntitle={SkillAct: Using Skill Abstractions Improves {LLM} Agents},\nauthor={Anthony Zhe Liu and Jongwook Choi and Sungryull Sohn and Yao Fu and Jaekyeom Kim and Dong-Ki Kim and Xinhe Wang and Jaewon Yoo and Honglak Lee},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=6LG3cIRrF4}\n}",
+        "number": 39,
+        "session": "Poster Session 2",
+        "id": 34
+    },
+    {
+        "title": "Compositional Communication with LLMs and Reasoning about Chemical Structures",
+        "authors": [
+            "Dmitry Zubarev",
+            "Sarathkrishna Swaminathan"
+        ],
+        "abstract": "Compositionality of communication is considered a prerequisite for reasoning. Despite overall impressive performance, LLMs seem to have fundamental issues with compositionality in reasoning tasks. Research of the emergence of languages in referential games demonstrates that compositionality can be achieved via combination of the game organization and constraints on communication protocols. In this contribution we propose and offer initial evaluation of the hypothesis that compositionality in reasoning tasks with LLMs can be improved by placing LLM agents in the referential games that coax compositionality of the communication. We describe a multi-stage chemical game including recognition, naming, and reconstruction of chemical structures by LLM agents without leveraging their pre-existing chemical knowledge.",
+        "pdf": "/pdf/877ab7bc9fd28e0eddb450e8b205c5b83deeab88.pdf",
+        "keywords": [
+            "Reasoning; Compositionality; Chemistry; Referential Games; Multi-agent Learning"
+        ],
+        "bibtex": "@inproceedings{\nzubarev2024compositional,\ntitle={Compositional Communication with {LLM}s and Reasoning about Chemical Structures},\nauthor={Dmitry Zubarev and Sarathkrishna Swaminathan},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=6ClYdySMTT}\n}",
+        "number": 40,
+        "session": "Poster Session 2",
+        "id": 35
+    },
+    {
+        "title": "AI-Assisted Generation of Difficult Math Questions",
+        "authors": [
+            "Vedant Shah",
+            "Dingli Yu",
+            "Kaifeng Lyu",
+            "Simon Park",
+            "Nan Rosemary Ke",
+            "James Lloyd McClelland",
+            "Yoshua Bengio",
+            "Michael Curtis Mozer",
+            "Sanjeev Arora",
+            "Anirudh Goyal"
+        ],
+        "abstract": "Current LLM training positions mathematical reasoning as a core capability. With publicly available sources fully tapped, there is unmet demand for diverse and challenging mathematics questions. Relying solely on human experts is both time-consuming and costly, while LLM-generated questions often lack the requisite diversity and difficulty.  We present a design framework that combines the strengths of LLMs with a human-in-the-loop approach to generate a diverse array of challenging math questions. Initially, leveraging LLM metacognition skills [Didolkar et al., 2024], a strong LLM is used to extract core \"skills\" from existing math datasets.  These skills serve as the basis for generating novel and difficult questions by prompting the LLM with random pairs of core skills that must be utilized in the question. Our pipeline employs LLMs to iteratively generate and refine questions and solutions through multi-turn prompting. Human annotators then verify and further refine the questions, with their efficiency enhanced through further LLM interactions. Applying this pipeline on skills extracted from MATH dataset [Hendrycks et al., 2021] resulted in a dataset of complex math questions, while improving expert productivity. Despite using skills from the MATH dataset, our approach of combining random skill pairs in questions resulted in noticeably higher quality, as evidenced by lower performance of all models on our questions than on MATH (with open models being the most affected). It can be seen as a method for {\\em scalable oversight,} where human experts evaluate highly capable AI models by also using AI-assistance.",
+        "pdf": "/pdf/e79ad92146b26b6c9004a8b0fa31652cdbf30bf2.pdf",
+        "keywords": [
+            "Mathematical Reasoning",
+            "Skill Composition",
+            "Scalable Oversight",
+            "Synthetic Data"
+        ],
+        "bibtex": "@inproceedings{\nshah2024aiassisted,\ntitle={{AI}-Assisted Generation of Difficult Math Questions},\nauthor={Vedant Shah and Anirudh Goyal and Dingli Yu and Kaifeng Lyu and Simon Park and Nan Rosemary Ke and James Lloyd McClelland and Yoshua Bengio and Sanjeev Arora and Michael Curtis Mozer},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=TMefxOnpUa}\n}",
+        "number": 41,
+        "session": "Poster Session 2",
+        "id": 36
+    },
+    {
+        "title": "Enhancing LLM Complex Reasoning Capability through Hyperbolic Geometry",
+        "authors": [
+            "Menglin Yang",
+            "Aosong Feng",
+            "Bo Xiong",
+            "Jiahong Liu",
+            "Irwin King",
+            "Rex Ying"
+        ],
+        "abstract": "In the era of foundation models and large language models (LLMs), Euclidean space is the de facto geometric setting. However, recent studies highlight this choice comes with limitations. We investigate the non-Euclidean characteristics of LLMs on complex reasoning tasks, finding that token embeddings and hidden states exhibit significant degree of hyperbolicity, indicating an underlying hyperbolic structure.\nTo exploit this hyperbolicity, we propose Hyperbolic Low-Rank Adaptation (HoRA), which performs low-rank adaptation fine-tuning on LLMs in hyperbolic space. HoRA operates directly on the hyperbolic manifold, avoiding issues caused by exponential and logarithmic maps when embedding and weight matrices reside in Euclidean space. Experiments show that HoRA obviously improves LLM performance on complex reasoning tasks. Especially the improvement is more obvious, up to 17.30\\% over Euclidean LoRA on the hard-level AQuA dataset.",
+        "pdf": "/pdf/18b709298ede32afcbd136fa746a99b026a828c5.pdf",
+        "keywords": [
+            "LLM",
+            "Complex Reasoning",
+            "Hyperbolic Geometry"
+        ],
+        "bibtex": "@inproceedings{\nyang2024enhancing,\ntitle={Enhancing {LLM} Complex Reasoning Capability through Hyperbolic Geometry},\nauthor={Menglin Yang and Aosong Feng and Bo Xiong and Jiahong Liu and Irwin King and Rex Ying},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=5lFiIVza6x}\n}",
+        "number": 42,
+        "session": "Poster Session 2",
+        "id": 37
+    },
+    {
+        "title": "Disjoint Processing Mechanisms of Hierarchical and Linear Grammars in Large Language Models",
+        "authors": [
+            "Aruna Sankaranarayanan",
+            "Dylan Hadfield-Menell",
+            "Aaron Mueller"
+        ],
+        "abstract": "All natural languages contain hierarchical structure. In humans, this structural restriction is neurologically coded: when presented with linear and hierarchical grammars with identical vocabularies, brain areas responsible for language processing are only sensitive to the hierarchical grammar. In this study, we investigate whether such functionally specialized grammar processing regions can emerge in large language models (LLMs) whose processing mechanisms are formed solely from exposure to language corpora. We prompt transformer-based autoregressive LLMs to determine the grammaticality of hierarchical and linear grammars in an in-context-learning setup. First, we discover that models demonstrate higher accuracy, and lower/comparable surprisals, on hierarchical grammars. Next, we use attribution patching to show that model components processing hierarchical and linear grammars are distinct. Lastly, ablating components for hierarchical/linear grammars selectively reduces accuracy for the corresponding grammar. Our findings indicate that large-scale text exposure alone can lead to functional specialization in LLMs.",
+        "pdf": "/pdf/6a5aff8fa71286fa09d2d92f3e0455a7843d85d4.pdf",
+        "keywords": [
+            "Impossible grammars",
+            "hierarchical grammars",
+            "interpretability",
+            "attribution patching"
+        ],
+        "bibtex": "@inproceedings{\nsankaranarayanan2024disjoint,\ntitle={Disjoint Processing Mechanisms of Hierarchical and Linear Grammars in Large Language Models},\nauthor={Aruna Sankaranarayanan and Dylan Hadfield-Menell and Aaron Mueller},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=qg2TJ3eKOr}\n}",
+        "number": 43,
+        "session": "Poster Session 2",
+        "id": 38
+    },
+    {
+        "title": "Cognitive Flexibility of Large Language Models",
+        "authors": [
+            "Sean M Kennedy",
+            "Robert D Nowak"
+        ],
+        "abstract": "Cognitive flexibility is a property of cognitive systems which enables success in rapid adaptation to new tasks in quick succession.  We investigate the degree of cognitive flexibility exhibited by several Large Language Models by evaluating them on two neuropsychological tests, the Wisconsin Card Sorting Test and the Letter-Number Test.  Our findings indicate that some Large Language Models fail to switch tasks within the same context window, despite succeeding at these same tasks in distinct context windows, while others are able to flexibly switch tasks.",
+        "pdf": "/pdf/60f5f4895744fa146cbb182a5ce6fdd55de1ca52.pdf",
+        "keywords": [
+            "Cognitive Assessment",
+            "LLM"
+        ],
+        "bibtex": "@inproceedings{\nkennedy2024cognitive,\ntitle={Cognitive Flexibility of Large Language Models},\nauthor={Sean M Kennedy and Robert D Nowak},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=58yThpzlth}\n}",
+        "number": 44,
+        "session": "Poster Session 2",
+        "id": 39
+    },
+    {
+        "title": "Can Models Learn Skill Composition from Examples?",
+        "authors": [
+            "Haoyu Zhao",
+            "Simran Kaur",
+            "Dingli Yu",
+            "Anirudh Goyal",
+            "Sanjeev Arora"
+        ],
+        "abstract": "As large language models (LLMs) become increasingly capable, their ability to exhibit *compositional generalization* of skills has garnered significant attention. Yu et al. 2023 recently introduced Skill-Mix evaluation, where models are tasked with composing a short paragraph demonstrating the use of a specified $k$-tuple of language skills. While small models struggled with even $k=3$, larger models like GPT-4 showed reasonable performance with $k=5$ and $6$.\nIn this paper, we employ a setup akin to Skill-Mix to evaluate the capacity of smaller models to learn compositional generalization from examples. Utilizing a diverse set of language skills\u2014including rhetorical, literary, reasoning, and theory of mind\u2014GPT-4 was used to generate text samples that exhibit random subsets of $k$ skills. Subsequent fine-tuning of 7B and 13B parameter models on these combined skill texts, for increasing values of $k$, revealed the following findings: 1) Training on combinations of $k=2$ and $3$ skills results in noticeable improvements in the ability to compose texts with $k=4$ and $5$ skills, despite models never having seen such examples during training. 2) When skill categories are split into training and held-out groups, models significantly improve at composing texts with held-out skills despite having only seen training skills during fine-tuning, illustrating the efficacy of the training approach even with previously unseen skills.",
+        "pdf": "/pdf/2c71092adf169a481c1fc1569f669b562782e190.pdf",
+        "keywords": [
+            "Skill composition",
+            "Large Language Model"
+        ],
+        "bibtex": "@inproceedings{\nzhao2024can,\ntitle={Can Models Learn Skill Composition from Examples?},\nauthor={Haoyu Zhao and Simran Kaur and Dingli Yu and Anirudh Goyal and Sanjeev Arora},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=YEEsRgkvnU}\n}",
+        "number": 45,
+        "session": "Poster Session 2",
+        "id": 40
+    },
+    {
+        "title": "Generation constraint scaling can mitigate hallucination",
+        "authors": [
+            "Georgios Kollias",
+            "Payel Das",
+            "Subhajit Chaudhury"
+        ],
+        "abstract": "Addressing the issue of hallucinations in large language models (LLMs) is a critical challenge. As the cognitive mechanisms of hallucination have been related to memory, here we explore hallucination for LLM that is enabled with  explicit memory mechanisms. We empirically demonstrate that by simply scaling the readout vector that constrains generation in a memory-augmented LLM decoder,  hallucination mitigation can be achieved in a training-free manner. Our method is geometry-inspired and outperforms a state-of-the-art LLM editing method on the task of generation of Wikipedia-like biography entries both in terms of generation quality and runtime complexity.",
+        "pdf": "/pdf/e7fda1ddb83501785e1593cdb0a00172389e6efc.pdf",
+        "keywords": [
+            "hallucination",
+            "memory-augmented LLMs"
+        ],
+        "bibtex": "@inproceedings{\nkollias2024generation,\ntitle={Generation constraint scaling can mitigate hallucination},\nauthor={Georgios Kollias and Payel Das and Subhajit Chaudhury},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=FCsxpYu80U}\n}",
+        "number": 46,
+        "session": "Poster Session 2",
+        "id": 41
+    },
+    {
+        "title": "Thinking Out-of-the-Box: A Comparative Investigation of Human and LLMs in Creative Problem-Solving",
+        "authors": [
+            "Yufei Tian",
+            "Abhilasha Ravichander",
+            "Lianhui Qin",
+            "Ronan Le Bras",
+            "Raja Marjieh",
+            "Nanyun Peng",
+            "Yejin Choi",
+            "Thomas L. Griffiths",
+            "Faeze Brahman"
+        ],
+        "abstract": "We explore the creative problem-solving capabilities of modern LLMs in a constrained setting. To this end, we create MacGyver, an automatically generated dataset consisting of 1,600 real-world problems deliberately designed to trigger innovative usage of objects and necessitate out-of-the-box thinking. We then present our collection to both LLMs and humans to compare and contrast their problem-solving abilities. Our task is challenging for both groups, but in unique and complementary ways. For instance, humans excel in tasks they are familiar with but struggle with domain-specific knowledge, leading to a higher variance. In contrast, LLMs, exposed to a variety of specialized knowledge, attempt broader problems but fail by proposing physically-infeasible actions.",
+        "pdf": "/pdf/dc1be9f2823fe58dbb09b3849e4ead9bdb1ee2ef.pdf",
+        "keywords": [
+            "creative problem solving",
+            "physical reasoning"
+        ],
+        "bibtex": "@inproceedings{\ntian2024thinking,\ntitle={Thinking Out-of-the-Box: A Comparative Investigation of Human and {LLM}s in Creative Problem-Solving},\nauthor={Yufei Tian and Abhilasha Ravichander and Lianhui Qin and Ronan Le Bras and Raja Marjieh and Nanyun Peng and Yejin Choi and Thomas L. Griffiths and Faeze Brahman},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=rxkqeYHXy0}\n}",
+        "number": 47,
+        "session": "Poster Session 2",
+        "id": 42
+    },
+    {
+        "title": "Fine-tuned network relies on generic representation to solve unseen cognitive task",
+        "authors": [
+            "Dongyan Lin"
+        ],
+        "abstract": "Fine-tuning pretrained language models has shown promising results on a wide range of tasks, but when encountering a novel task, do they rely more on generic pretrained representation, or develop brand new task-specific solutions? Here, we fine-tuned GPT-2 on a context-dependent decision-making task, novel to the model but adapted from neuroscience literature. We compared its performance and internal mechanisms to a version of GPT-2 trained from scratch on the same task. Our results show that fine-tuned models depend heavily on pretrained representations, particularly in later layers, while models trained from scratch develop different, more task-specific mechanisms. These findings highlight the advantages and limitations of pretraining for task generalization and underscore the need for further investigation into the mechanisms underpinning task-specific fine-tuning in LLMs.",
+        "pdf": "/pdf/38e8e2eed8e3f8f66277da65ab21ed4321eb9668.pdf",
+        "keywords": [
+            "Transformers",
+            "fine-tuning",
+            "computational neuroscience",
+            "cognitive science"
+        ],
+        "bibtex": "@inproceedings{\nlin2024finetuned,\ntitle={Fine-tuned network relies on generic representation to solve unseen cognitive task},\nauthor={Dongyan Lin},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=cZWCUTvUjt}\n}",
+        "number": 49,
+        "session": "Poster Session 2",
+        "id": 43
+    },
+    {
+        "title": "Base-Change at Prediction: Inference-Time Update of Fine-Tuned Models",
+        "authors": [
+            "Daiki Chijiwa",
+            "Taku Hasegawa",
+            "Kyosuke Nishida",
+            "Kuniko Saito",
+            "Susumu Takeuchi"
+        ],
+        "abstract": "Foundation models play a central role in recent developments of artificial intelligence on both vision and language domains. However, even if a foundation model is powerful enough at the time to be fine-tuned for various tasks, it will be eventually outdated due to its old knowledge or inadequate capability for new tasks, and then a new foundation model will be prepared by re-training the outdated model with updated data. As a result, the various fine-tuned models based on the outdated model also have to keep up with the new foundation model, typically by fine-tuning again the new foundation model for each task, which should be costly if the number of fine-tuned models or the frequency of updates increases. In this paper, with our simplified theoretical framework, we first derive a probabilistic formula for the fine-tuned model of the new foundation model. Then, based on the formula, we propose a method to avoid the fine-tuning of new foundation models, by editing the predictions of the fine-tuned model in direction to the new foundation model. Compared to previous methods, which edit the predictions of the new foundation model instead, our method consistently keeps or improves accuracy of fine-tuned model for various tasks.",
+        "pdf": "/pdf/5bfa1363dacb313081655bb0866fd6d8a6b4005e.pdf",
+        "keywords": [
+            "Foundation Models",
+            "Fine-Tuning"
+        ],
+        "bibtex": "@inproceedings{\nchijiwa2024basechange,\ntitle={Base-Change at Prediction: Inference-Time Update of Fine-Tuned Models},\nauthor={Daiki Chijiwa and Taku Hasegawa and Kyosuke Nishida and Kuniko Saito and Susumu Takeuchi},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=FwwQj9jjbU}\n}",
+        "number": 50,
+        "session": "Poster Session 2",
+        "id": 44
+    },
+    {
+        "title": "Humans Linguistically Align to their Conversational Partners, and Language Models Should Too",
+        "authors": [
+            "Rachel Ostrand",
+            "Sara E Berger"
+        ],
+        "abstract": "Humankind has honed its language system over thousands of years to engage in statistical learning and form predictions about upcoming input, often based on properties of or prior conversational experience with a specific conversational partner. Large language models, however, do not adapt their language in a user-specific manner. We argue that AI and ML researchers and developers should not ignore this critical component of human language processing, but instead, incorporate it into LLM development, and that doing so will improve LLM conversational performance, as well as users\u2019 perceptions of models on dimensions such as accuracy and task success.",
+        "pdf": "/pdf/76cb6722117dccd8fb769372455cec95ec22d8bb.pdf",
+        "keywords": [
+            "linguistic alignment",
+            "language production",
+            "language comprehension",
+            "cognition"
+        ],
+        "bibtex": "@inproceedings{\nostrand2024humans,\ntitle={Humans Linguistically Align to their Conversational Partners, and Language Models Should Too},\nauthor={Rachel Ostrand and Sara E Berger},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=JtgxazN6TM}\n}",
+        "number": 51,
+        "session": "Poster Session 2",
+        "id": 45
+    },
+    {
+        "title": "Behavioral Bias of Vision-Language Models: A Behavioral Finance View",
+        "authors": [
+            "Yuhang Xiao",
+            "yudilin",
+            "Ming-Chang Chiu"
+        ],
+        "abstract": "Large Vision-Language Models (LVLMs) evolve rapidly as Large Language Models (LLMs) was equipped with vision modules to create more human-like models. However, we should carefully evaluate their applications in different domains, as they may posses undesired biases. Our work studies the potential behavioral biases of LVLMs from a behavioral finance perspective, an interdisciplinary subject that jointly considers finance and psychology. We propose an end-to-end framework, from data collection to new evaluation metrics, to assess LVLMs' reasoning capabilities and the dynamic behaviors manifested in two established human financial behavioral biases: recency bias and authority bias. Our evaluations find that recent open-source LVLMs such as LLaVA-NeXT, MobileVLM-V2, Mini-Gemini, MiniCPM-Llama3-V 2.5 and Phi-3-vision-128k suffer significantly from these two biases, while the proprietary model GPT-4o is negligibly impacted. Our observations highlight directions in which open-source models can improve.",
+        "pdf": "/pdf/05ba6953520d730877ef8769c11dbd990924f870.pdf",
+        "keywords": [
+            "Large Vision-Language Models",
+            "Multimodal Large Language Models",
+            "Cognitive Bias",
+            "Behavioral Bias",
+            "Behavioral Finance"
+        ],
+        "bibtex": "@inproceedings{\nxiao2024behavioral,\ntitle={Behavioral Bias of Vision-Language Models: A Behavioral Finance View},\nauthor={Yuhang Xiao and yudilin and Ming-Chang Chiu},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=VjMqF5YcEz}\n}",
+        "number": 52,
+        "session": "Poster Session 2",
+        "id": 46
+    },
+    {
+        "title": "Are Large Language Models Chameleons?",
+        "authors": [
+            "Mingmeng GENG",
+            "Sihong He",
+            "Roberto Trotta"
+        ],
+        "abstract": "Do large language models (LLMs) have their own worldviews and personality tendencies? Simulations in which an LLM was asked to answer subjective questions were conducted more than 1 million times. Comparison of the responses from different LLMs with real data from the European Social Survey (ESS) suggests that the effect of prompts on bias and variability is fundamental, highlighting major cultural, age, and gender biases. Methods for measuring the difference between LLMs and survey data are discussed, such as calculating weighted means and a new proposed measure inspired by Jaccard similarity. We conclude that it is important to analyze the robustness and variability of prompts before using LLMs to model individual decisions or collective behavior, as their imitation abilities are approximate at best.",
+        "pdf": "/pdf/3db57f8b42537bdae5d308b72e319c6787f42765.pdf",
+        "keywords": [
+            "survey data",
+            "survey methodology",
+            "fairness",
+            "bias",
+            "prompts",
+            "human values"
+        ],
+        "bibtex": "@inproceedings{\ngeng2024are,\ntitle={Are Large Language Models Chameleons?},\nauthor={Mingmeng GENG and Sihong He and Roberto Trotta},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=ZuHzMOhnB1}\n}",
+        "number": 53,
+        "session": "Poster Session 2",
+        "id": 47
+    },
+    {
+        "title": "Towards Bridging Classical and Neural Computation through a Read-Eval-Print Loop",
+        "authors": [
+            "David W. Zhang",
+            "Micha\u00ebl Defferrard",
+            "Corrado Rainone",
+            "Roland Memisevic"
+        ],
+        "abstract": "Humans rely on step-by-step reasoning to solve new problems, each step guided by the feedback of its effect on a potential solution. For complicated problems, such a sequence of step-by-step interactions might take place between the human and some sort of software system, like a Python interpreter, and the sequence of operations so obtained would then constitute an algorithm to solve a particular class of problems. Based on these ideas, this work proposes a general and scalable method to generate synthetic training data, which we in turn use to teach a Large Language Model to carry out new and previously unseen tasks. By tracing the execution of an algorithm, through careful transformations of the control flow elements, we can produce ``code traces'' containing step-by-step solutions for a range of problems. We empirically verify the usefulness of training on such data, and its superiority to tracing the state changes directly.",
+        "pdf": "/pdf/09910733a16bbfdcbef3b922d0a94ac563538f25.pdf",
+        "keywords": [
+            "LLM",
+            "coding",
+            "neural computer",
+            "python interactive session"
+        ],
+        "bibtex": "@inproceedings{\nzhang2024towards,\ntitle={Towards Bridging Classical and Neural Computation through a Read-Eval-Print Loop},\nauthor={David W. Zhang and Micha{\\\"e}l Defferrard and Corrado Rainone and Roland Memisevic},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=Y08aOVCPTt}\n}",
+        "number": 54,
+        "session": "Poster Session 2",
+        "id": 48
+    },
+    {
+        "title": "Baba Is AI: Break the Rules to Beat the Benchmark",
+        "authors": [
+            "Nathan Cloos",
+            "Meagan Jens",
+            "Michelangelo Naim",
+            "Yen-Ling Kuo",
+            "Ignacio Cases",
+            "Andrei Barbu",
+            "Christopher J Cueva"
+        ],
+        "abstract": "Humans solve problems by following existing rules and procedures, and also by leaps of creativity to redefine those rules and objectives. To probe these abilities, we developed a new benchmark based on the game Baba Is You where an agent manipulates both objects in the environment and rules, represented by movable tiles with words written on them, to reach a specified goal and win the game. We test three state-of-the-art multi-modal large language models (OpenAI GPT-4o, Google Gemini-1.5-Pro and Gemini-1.5-Flash) and find that they fail dramatically when generalization requires that the rules of the game must be manipulated and combined.",
+        "pdf": "/pdf/f3064624e2d50367b3a4c7c0b499105798bfd242.pdf",
+        "keywords": [
+            "large language model",
+            "grounded compositional generalization",
+            "benchmark",
+            "baba is you"
+        ],
+        "bibtex": "@inproceedings{\ncloos2024baba,\ntitle={Baba Is {AI}: Break the Rules to Beat the Benchmark},\nauthor={Nathan Cloos and Meagan Jens and Michelangelo Naim and Yen-Ling Kuo and Ignacio Cases and Andrei Barbu and Christopher J Cueva},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=jjN1A9CZn4}\n}",
+        "number": 55,
+        "session": "Poster Session 2",
+        "id": 49
+    },
+    {
+        "title": "Cognitive Modeling with Scaffolded LLMs: A Case Study of Referential Expression Generation",
+        "authors": [
+            "Polina Tsvilodub",
+            "Michael Franke",
+            "Fausto Carcassi"
+        ],
+        "abstract": "To what extent can LLMs be used as part of a cognitive model of language generation? In this paper, we approach this question by exploring a neuro-symbolic implementation of an algorithmic cognitive model of referential expression generation by Dale & Reiter (1995). The symbolic task analysis implementing the generation as an iterative procedure scaffolds symbolic and gpt-3.5-turbo-based modules. We compare this implementation to an ablated model and a one-shot LLM-only baseline on the A3DS dataset (Tsvilodub & Franke, 2023) and find that our hybrid approach is at the same time cognitively plausible and performs well in complex contexts, while allowing for more open-ended modeling of language generation in a larger domain.",
+        "pdf": "/pdf/663bf35649ff2aeb9f3ca254833437df34bde2aa.pdf",
+        "keywords": [
+            "cognitive modeling",
+            "referential expressions",
+            "language generation",
+            "neuro-symbolic models",
+            "LLMs"
+        ],
+        "bibtex": "@inproceedings{\ntsvilodub2024cognitive,\ntitle={Cognitive Modeling with Scaffolded {LLM}s: A Case Study of Referential Expression Generation},\nauthor={Polina Tsvilodub and Michael Franke and Fausto Carcassi},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=gnGhkVfhje}\n}",
+        "number": 56,
+        "session": "Poster Session 2",
+        "id": 50
+    },
+    {
+        "title": "In-Context Learning May Not Elicit Trustworthy Reasoning: A-Not-B Errors in Pretrained Language Models",
+        "authors": [
+            "Pengrui Han",
+            "Peiyang Song",
+            "Haofei Yu",
+            "Jiaxuan You"
+        ],
+        "abstract": "Recent advancements in artificial intelligence (AI) have led to the development of highly capable large language models (LLMs) demonstrating significant human-like abilities. Yet these pretrained LLMs are often vulnerable to interesting cognitive biases. In this work, we study the A-Not-B error -- a developmental stage for human infants, characterized by the persistence of previously rewarded behavior despite changed conditions that warrant even trivial adaptation. Our investigation reveals that LLMs, akin to human infants, erroneously apply past successful responses to slightly altered contexts. Employing various reasoning tasks, we demonstrate that LLMs are susceptible to the A-Not-B error. Notably, smaller models exhibit heightened vulnerability, mirroring the developmental trajectory of human infants. Models pretrained with extensive, high-quality data show significant resilience, highlighting the importance of internal knowledge quality, similar to how rich experiences enhance human cognitive abilities. Furthermore, increasing the number of examples before a context change leads to more pronounced failures, highlighting that LLMs are fundamentally pattern-driven and may falter with minor, non-erroneous changes merely in patterns. We open source all code and results under a permissive MIT license, to encourage reproduction and further research exploration.",
+        "pdf": "/pdf/935fa74f0bb8fcd21783d635ce7e81a1cf7e3979.pdf",
+        "keywords": [
+            "A-not-B error",
+            "in-context learning",
+            "large language model failure cases",
+            "trustworthy llm reasoning"
+        ],
+        "bibtex": "@inproceedings{\nhan2024incontext,\ntitle={In-Context Learning May Not Elicit Trustworthy Reasoning: A-Not-B Errors in Pretrained Language Models},\nauthor={Pengrui Han and Peiyang Song and Haofei Yu and Jiaxuan You},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=qu6sMJmEwl}\n}",
+        "number": 58,
+        "session": "Poster Session 2",
+        "id": 51
+    },
+    {
+        "title": "On language models\u2019 cognitive biases in reading time prediction",
+        "authors": [
+            "Patrick Haller",
+            "Lena Sophia Bolliger",
+            "Lena Ann J\u00e4ger"
+        ],
+        "abstract": "To date, most investigations on surprisal and entropy effects in reading have been conducted on the group-level, disregarding individual differences. In this work, we revisit the predictive power (PP) of different language models' (LMs') surprisal and entropy measures on data of human reading times by incorporating information of language users' cognitive capacities. To do so, we assess the PP of surprisal and entropy estimated from generative LMs on reading data from subjects for which scores from psychometric tests targeting different cognitive domains are available.\n\nSpecifically, we investigate if modulating surprisal and entropy relative to the readers' cognitive scores increases prediction accuracy of reading times, and we examine whether LMs exhibit systematic biases in the prediction of reading times for cognitively high- or low-scoring groups, allowing us to investigate what type of psycholinguistic subjects a given LM emulates.\n\nWe find that incorporating cognitive capacities mostly increases PP of surprisal and entropy on reading times, and that individuals performing high in cognitive tests are less sensitive to predictability effects. Our results further suggest that the analyzed LMs emulate readers with lower verbal intelligence, suggesting that for a given target group (i.e., individuals with high verbal intelligence), these LMs provide less accurate predictability estimates. Finally, our study underlines the value of incorporating individual-level information to gain insights into how LMs operate internally.",
+        "pdf": "/pdf/d8c88804d66717552e2607ae4722b9b5f2202ae0.pdf",
+        "keywords": [
+            "cognitive interpretability",
+            "individual differences",
+            "reading time analysis",
+            "language modeling"
+        ],
+        "bibtex": "@inproceedings{\nhaller2024language,\ntitle={Language models can emulate certain cognitive profiles: An investigation on the predictive power of modulated surprisal and entropy},\nauthor={Patrick Haller and Lena Sophia Bolliger and Lena Ann J{\\\"a}ger},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=io5QAglkER}\n}",
+        "number": 59,
+        "session": "Poster Session 2",
+        "id": 52
+    },
+    {
+        "title": "An information-theoretic study of lying in LLMs",
+        "authors": [
+            "Ann-Kathrin Dombrowski",
+            "Guillaume Corlouer"
+        ],
+        "abstract": "This study investigates differences in information processing between lying and truth-telling in Large Language Models (LLMs). Taking inspiration from human cognition research which shows that lying demands more cognitive resources than truth-telling, we apply information-theoretic measures to unembedded internal model activations to explore analogous phenomena in LLMs. Our analysis reveals that LLMs converge more quickly to the output distribution when telling the truth and exhibit higher entropy when constructing lies. These findings indicate that lying in LLMs may produce characteristic information processing patterns, which could contribute to our ability to understand and detect deceptive behaviors in LLMs.",
+        "pdf": "/pdf/59f243748d39b571e1a6caacb8605623c52b73ba.pdf",
+        "keywords": [
+            "Information theory",
+            "lying in LLms",
+            "internal activations",
+            "logit lens",
+            "tuned lens"
+        ],
+        "bibtex": "@inproceedings{\ndombrowski2024an,\ntitle={An information-theoretic study of lying in {LLM}s},\nauthor={Ann-Kathrin Dombrowski and Guillaume Corlouer},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=9AM5i1wWZZ}\n}",
+        "number": 60,
+        "session": "Poster Session 2",
+        "id": 53
+    },
+    {
+        "title": "The Pupil Becomes the Master: Eye-Tracking Feedback for Tuning LLMs",
+        "authors": [
+            "Samuel Kiegeland",
+            "David Robert Reich",
+            "Ryan Cotterell",
+            "Lena Ann J\u00e4ger",
+            "Ethan Wilcox"
+        ],
+        "abstract": "Large language models often require alignment with explicit human preferences, which can be sparse and costly. We propose a framework to leverage eye-tracking data as an implicit feedback signal to tune LLMs for controlled sentiment generation using Direct Preference Optimization. Our study demonstrates that eye-tracking feedback can be a valuable signal for tuning LLMs. This motivates future research to investigate the impact of eye-tracking feedback on various tasks, highlighting the potential of integrating eye-tracking data with LLMs to improve their performance and alignment with human preferences.",
+        "pdf": "/pdf/449a46822a98766dbf4ebb9b81dd37e91eedfd2f.pdf",
+        "keywords": [
+            "Eye-tracking",
+            "LLM",
+            "DPO"
+        ],
+        "bibtex": "@inproceedings{\nkiegeland2024the,\ntitle={The Pupil Becomes the Master: Eye-Tracking Feedback for Tuning {LLM}s},\nauthor={Samuel Kiegeland and David Robert Reich and Ryan Cotterell and Lena Ann J{\\\"a}ger and Ethan Wilcox},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=8oLUcBgKua}\n}",
+        "number": 61,
+        "session": "Poster Session 2",
+        "id": 54
+    },
+    {
+        "title": "Teaching Transformers Causal Reasoning through Axiomatic Training",
+        "authors": [
+            "Aniket Vashishtha",
+            "Abhinav Kumar",
+            "Abbavaram Gowtham Reddy",
+            "Vineeth N. Balasubramanian",
+            "Amit Sharma"
+        ],
+        "abstract": "For text-based AI systems to interact in the real world, causal reasoning is an essential skill. Since interventional data is costly to generate, we study to what extent an agent can learn  causal reasoning from passive data. We consider an axiomatic training setup where an agent learns from multiple demonstrations of a causal axiom (or rule), rather than incorporating the axiom as an inductive bias or inferring it from data values. A key question is whether transformers could learn to generalize from the axiom demonstrations to larger and more complex scenarios. Our results, based on a novel axiomatic training scheme, indicate that such generalization is possible. We consider the task of inferring whether a variable causes another variable, given a causal graph structure. We find that a 67 million parameter transformer model, when trained on linear causal chains (along with some variations) can generalize well to new kinds of graphs, including longer causal chains, causal chains with reversed order, and graphs with branching; even when it is not explicitly trained for such settings. Our model performs at par (or better) than many larger language models  such as GPT-4, Gemini Pro, and Phi-3. Overall, the axiomatic training framework provides a new paradigm of learning causal reasoning from passive data that can be used to learn arbitrary axioms.",
+        "pdf": "/pdf/803108b089b3aed437e4dbc31f38758027c395f0.pdf",
+        "keywords": [
+            "Causal Axioms",
+            "Transformers",
+            "Causal Reasoning",
+            "Generalization"
+        ],
+        "bibtex": "@inproceedings{\nvashishtha2024teaching,\ntitle={Teaching Transformers Causal Reasoning through Axiomatic Training},\nauthor={Aniket Vashishtha and Abhinav Kumar and Abbavaram Gowtham Reddy and Vineeth N. Balasubramanian and Amit Sharma},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=Sqr4wrOdzu}\n}",
+        "number": 62,
+        "session": "Poster Session 2",
+        "id": 55
+    },
+    {
+        "title": "Large Language Models are Not Inverse Thinkers Quite yet",
+        "authors": [
+            "Haoran Zhao"
+        ],
+        "abstract": "Large language models (LLMs) have exhibited significant proficiency in various reasoning tasks, yet their capacity for \"inverse thinking\" remains underexplored. Inverse thinking, inspired by concepts from cognitive science and popularized by figures such as Charlie Munger, involves approaching problems from an opposite perspective, often simplifying complex issues and offering innovative solutions. This paper evaluates the ability of LLMs to comprehend and apply inverse thinking through a series of experiments designed to test theoretical understanding, contextual comprehension, and practical preference in problem-solving scenarios. Our findings indicate that while LLMs demonstrate a basic grasp of inverse thinking, they struggle to consistently apply it in practical contexts, highlighting a nuanced challenge in capturing this cognitive skill within language models. Finally, we discuss the potential directions for future research along this direction and how it can contribute to make better cognitive LLMs.",
+        "pdf": "/pdf/063f0ea5cbb31203b99a9f50d49922bdc60eb2c7.pdf",
+        "keywords": [
+            "Large language models",
+            "reasoning and thinking",
+            "inverse thinking",
+            "cognitive ability"
+        ],
+        "bibtex": "@inproceedings{\nzhao2024large,\ntitle={Large Language Models are Not Inverse Thinkers Quite yet},\nauthor={Haoran Zhao},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=zzgPpqq3XP}\n}",
+        "number": 64,
+        "session": "Poster Session 2",
+        "id": 56
+    },
+    {
+        "title": "Proving that Cryptic Crossword Clue Answers are Correct",
+        "authors": [
+            "Martin Andrews",
+            "Sam Witteveen"
+        ],
+        "abstract": "Cryptic crossword clues are challenging cognitive tasks, for which new test sets are released on a daily basis by multiple international newspapers.  Each cryptic clue contains both the definition of the answer to be placed in the crossword grid (in common with regular crosswords), and 'wordplay' that _proves_ that the answer is correct (i.e. a human solver can be confident that an answer is correct without needing crossing words to confirm it).  Using an existing cryptic wordplay proving framework (operating on Python proofs created by an LLM), we show that it is possible to distinguish between correct answers and almost-correct ones based upon whether the wordplay 'works'.",
+        "pdf": "/pdf/46a953488a69de6e28884c69dea981959481e1b0.pdf",
+        "keywords": [
+            "NLP",
+            "Reasoning",
+            "Cognitive Task",
+            "Cryptic crosswords"
+        ],
+        "bibtex": "@inproceedings{\nandrews2024proving,\ntitle={Proving that Cryptic Crossword Clue Answers are Correct},\nauthor={Martin Andrews and Sam Witteveen},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=y9LGfi0ZZz}\n}",
+        "number": 65,
+        "session": "Poster Session 2",
+        "id": 57
+    },
+    {
+        "title": "Anthropocentric bias and the possibility of artificial cognition",
+        "authors": [
+            "Rapha\u00ebl Milli\u00e8re",
+            "Charles Rathkopf"
+        ],
+        "abstract": "Evaluating the cognitive capacities of large language models (LLMs) requires overcoming not only anthropomorphic but also anthropocentric biases. This article identifies two types of anthropocentric bias that have been neglected: overlooking how auxiliary factors can impede LLM performance despite competence (Type-I), and dismissing LLM mechanistic strategies that differ from those of humans as not genuinely competent (Type-II). Mitigating these biases necessitates an empirically-driven, iterative approach to mapping cognitive tasks to LLM-specific capacities and mechanisms, which can be done by supplementing carefully designed behavioral experiments with mechanistic studies.",
+        "pdf": "/pdf/331ee68a88406be153a86f2e4746309650334ca2.pdf",
+        "keywords": [
+            "language models",
+            "psychology",
+            "anthropomorphism",
+            "anthropocentrism",
+            "comparative bias",
+            "mechanistic interpretability"
+        ],
+        "bibtex": "@inproceedings{\nmilli{\\`e}re2024anthropocentric,\ntitle={Anthropocentric reasoning and the possibility of artificial cognition},\nauthor={Rapha{\\\"e}l Milli{\\`e}re and Charles Rathkopf},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=wrZ6mLelzu}\n}",
+        "number": 66,
+        "session": "Poster Session 2",
+        "id": 58
+    },
+    {
+        "title": "Self-Cognition in Large Language Models: An Exploratory Study",
+        "authors": [
+            "Dongping Chen",
+            "Jiawen Shi",
+            "Neil Zhenqiang Gong",
+            "Yao Wan",
+            "Pan Zhou",
+            "Lichao Sun"
+        ],
+        "abstract": "While Large Language Models (LLMs) have achieved remarkable success across various applications, they also raise concerns regarding self-cognition. In this paper, we perform a pioneering study to explore self-cognition in LLMs. Specifically, we first construct a pool of self-cognition instruction prompts to evaluate where an LLM exhibits self-cognition and four well-designed principles to quantify LLMs' self-cognition. Our study reveals that 4 of the 48 models on Chatbot Arena--specifically Command R, Claude3-Opus, Llama-3-70b-Instruct, and Reka-core--demonstrate some level of detectable self-cognition. We observe a positive correlation between model size, training data quality, and self-cognition level. Additionally, we also explore the utility and trustworthiness of LLM in the self-cognition state, revealing that the self-cognition state enhances some specific tasks such as creative writing and exaggeration. We believe that our work can serve as an inspiration for further research to study the self-cognition in LLMs.",
+        "pdf": "/pdf/f36fa47767be0e39adb4714df2d3cca0e78d10ee.pdf",
+        "keywords": [
+            "Large Language Models",
+            "Self-Cognition",
+            "AI Psychology"
+        ],
+        "bibtex": "@inproceedings{\nchen2024selfcognition,\ntitle={Self-Cognition in Large Language Models: An Exploratory Study},\nauthor={Dongping Chen and Jiawen Shi and Neil Zhenqiang Gong and Yao Wan and Pan Zhou and Lichao Sun},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=WecnmDstdi}\n}",
+        "number": 67,
+        "session": "Poster Session 2",
+        "id": 59
+    },
+    {
+        "title": "LLM-Informed Discrete Prompt Optimization",
+        "authors": [
+            "Zeeshan Memon",
+            "Muhammad Arham",
+            "Adnan Ul-Hasan",
+            "Faisal Shafait"
+        ],
+        "abstract": "The advent of Large Language Models (LLMs) has significantly improved NLP tasks, but their performance depends on effective prompt engineering, where engineers iteratively craft prompts by observing the dynamics of LLMs. With the rising number of LLMs, each trained on different data sources and thus exhibiting different internal sensitivities, prompt engineering has become an increasingly cumbersome task. The solution to these challenges lies in an automated and reliable model capable of suggesting optimized prompts and adapting to various LLMs. Previous works have primarily focused on training learnable vectors or identifying discrete prompts, which were effective for earlier, smaller language models. However, contemporary LLMs require coherent text prompts tailored to their specific training instructions. In this paper, we address this gap by proposing a methodology for training a lightweight model that not only produces legible, optimized prompts but also adapts to different LLMs. The proposed methodology has demonstrated significant performance improvements with optimized prompts across different LLMs.",
+        "pdf": "/pdf/4dabb565c447e5d2e9ba9f482f8c60b938befc66.pdf",
+        "keywords": [
+            "Prompt Optimization",
+            "Large Language Models",
+            "Prompt Engineering"
+        ],
+        "bibtex": "@inproceedings{\nmemon2024llminformed,\ntitle={{LLM}-Informed Discrete Prompt Optimization},\nauthor={Zeeshan Memon and Muhammad Arham and Adnan Ul-Hasan and Faisal Shafait},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=d0jQuZe6k0}\n}",
+        "number": 68,
+        "session": "Poster Session 2",
+        "id": 60
+    },
+    {
+        "title": "CogErgLLM: Exploring Large Language Model Systems Design Perspective Using Cognitive Ergonomics",
+        "authors": [
+            "Azmine Toushik Wasi"
+        ],
+        "abstract": "Integrating cognitive ergonomics with LLMs is essential for enhancing safety, reliability, and user satisfaction in human-AI interactions. Current LLM design often lacks this integration, leading to systems that may not fully align with human cognitive capabilities and limitations. Insufficient focus on incorporating cognitive science methods exacerbates biases in LLM outputs, while inconsistent application of user-centered design principles results in sub-optimal user experiences. To address these challenges, our position paper explores the critical integration of cognitive ergonomics principles into LLM design, aiming to provide a comprehensive framework and practical guidelines for ethical LLM development. Through our contributions, we seek to advance understanding and practice in integrating cognitive ergonomics into LLM systems, fostering safer, more reliable, and ethically sound human-AI interactions.",
+        "pdf": "https://arxiv.org/abs/2407.02885",
+        "keywords": [
+            "Cognitive Modeling",
+            "Erogonomics",
+            "Cognitive Ergonomics",
+            "Large Language Models",
+            "Computational Linguistics",
+            "System Design and Development"
+        ],
+        "bibtex": "@inproceedings{\nwasi2024cogergllm,\ntitle={CogErg{LLM}: Exploring Large Language Model Systems Design Perspective Using Cognitive Ergonomics},\nauthor={Azmine Toushik Wasi},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=63C9YSc77p}\n}",
+        "number": 69,
+        "session": "Poster Session 2",
+        "id": 61
+    },
+    {
+        "title": "What can VLMs Do for Zero-shot Embodied Task Planning?",
+        "authors": [
+            "Xian Fu",
+            "Min Zhang",
+            "Jianye HAO",
+            "Peilong Han",
+            "Hao Zhang",
+            "Lei Shi",
+            "Hongyao Tang"
+        ],
+        "abstract": "Recent advances in Vision Language Models (VLMs) for robotics demonstrate their enormous potential. However, the performance limitations of VLMs for embodied task planning, which require high precision and reliability, remain ambiguous, greatly constraining their potential application in this field. To this end, this paper provides an in-depth and comprehensive evaluation of VLM performance in zero-shot embodied task planning. Firstly, we develop a systematic evaluation framework encompassing various dimensions of capabilities essential for task planning for the first time. This framework aims to identify the factors that constrain VLMs in producing accurate task plans. Based on this framework, we propose a benchmark dataset called ETP-Bench to evaluate the performance of VLMs on embodied task planning. Extensive experiments indicate that the current state-of-the-art VLM, GPT-4V, achieves only 19% accuracy in task planning on our benchmark. The main factors contributing to this low accuracy are deficiencies in spatial perception and object type recognition. We hope this study can provide data support and inspire more specific research directions for future robotics research.",
+        "pdf": "/pdf/ada56b5e41e9e92105e0cd1afdec4805b8b27990.pdf",
+        "keywords": [
+            "Vision Language Models",
+            "Embodied Task Planning"
+        ],
+        "bibtex": "@inproceedings{\nfu2024what,\ntitle={What can {VLM}s Do for Zero-shot Embodied Task Planning?},\nauthor={Xian Fu and Min Zhang and Jianye HAO and Peilong Han and Hao Zhang and Lei Shi and Hongyao Tang},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=OE5WKiNPyx}\n}",
+        "number": 70,
+        "session": "Poster Session 2",
+        "id": 62
+    },
+    {
+        "title": "Iterative Theory of Mind Assay of Multimodal AI Models",
+        "authors": [
+            "Rohini Elora Das",
+            "Rajarshi Das",
+            "Niharika Maity",
+            "Sreerupa Das"
+        ],
+        "abstract": "The concept of artificial general intelligence (AGI) has sparked intense debates across various sectors, fueled by the capabilities of Large Language Model-based AI systems like ChatGPT. However, the AI community remains divided on whether such models truly understand language and its contexts. Developing multimodal AI systems, which can engage with the user in multiple input and output modalities, is seen as a crucial step towards AGI. We employ a novel iterated Theory of Mind (iToM) test to reveal limitations of current multimodal LLMs like ChatGPT 4o in converging to coherent and unified internal world models which results in illogical and inconsistent user interactions both within and across the different input and output modalities. We also identify new multimodal confabulations (\"hallucinations\"), particularly in languages with less training data, such as Bengali.",
+        "pdf": "/pdf/956db297ec046f2bae2efb7e9b5133ba9601f3db.pdf",
+        "keywords": [
+            "Large Language Model",
+            "Theory of Mind",
+            "Cognition",
+            "AI"
+        ],
+        "bibtex": "@inproceedings{\ndas2024theory,\ntitle={Theory of Mind Assay of Multimodal {LLM}s},\nauthor={Rohini Elora Das and Niharika Maity and Rajarshi Das and Sreerupa Das},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=PsGVVQJZGk}\n}",
+        "number": 72,
+        "session": "Poster Session 2",
+        "id": 63
+    }
+]

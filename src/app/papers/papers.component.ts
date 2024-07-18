@@ -9,6 +9,8 @@ import { HttpClient } from '@angular/common/http';
 export class PapersComponent implements OnInit {
     papers: any[] = []; // Define a property to hold the data
 
+    contributed_talk_ids: number[] = [10, 11];
+
     constructor(private http: HttpClient) { } // Inject HttpClient
 
     ngOnInit(): void {
@@ -17,7 +19,7 @@ export class PapersComponent implements OnInit {
 
     loadPapers(): void {
         this.http.get<any[]>('assets/accepted_submissions.json').subscribe(data => {
-          this.papers = data;
+          this.papers = data.sort((a, b) => a.id - b.id); 
         });
     }
 

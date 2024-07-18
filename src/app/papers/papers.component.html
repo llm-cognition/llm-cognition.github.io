@@ -14,6 +14,10 @@
                     <strong>Authors: </strong>
                     <span>{{paper.authors.join(', ')}}</span>
                     <br>
+                    <div [hidden]="!contributed_talk_ids.includes(paper.id)">
+                        <strong style="color:red;">Contributed Talk</strong>
+                        <br>
+                    </div>
                     <div style="font-size: small;">
                         <strong>Keywords: </strong>
                         <span>{{paper.keywords.join(', ')}}</span> 

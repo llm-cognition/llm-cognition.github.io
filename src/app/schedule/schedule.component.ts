@@ -16,13 +16,16 @@ export class ScheduleComponent implements OnInit {
     {time: '11:30', title: 'Invited Talk 3', speaker: 'Chelsea Finn'},
     {time: '12:00', title: 'Invited Talk 4', speaker: 'Ethan Wilcox'},
     {time: '12:30', title: 'Lunch Break', speaker: '-'},
-    {time: '14:00', title: 'Panel Discussion', speaker: '-'},
-    {time: '15:00', title: 'Contributed Talk 1', speaker: 'TBD'},
-    {time: '15:15', title: 'Contributed Talk 2', speaker: 'TBD'},
+    {time: '14:00', title: 'Panel Discussion', speaker: 'Subbarao Kambhampati, Antoine Bosselut, Ethan Wilcox'},
+    {time: '15:00', title: 'Contributed Talk 1', speaker: 'Paper #9: Yuxiao Qu, Tianjun Zhang, Naman Garg, Aviral Kumar'},
+    {time: '15:15', title: 'Contributed Talk 2', speaker: 'Paper #10: Ziqiao Ma, Zekun Wang, Joyce Chai'},
     {time: '15:30', title: 'Poster Session 2', speaker: 'Papers #33-#63 (see below)'},
     {time: '16:30', title: 'Invited Talk 5', speaker: 'Melanie Mitchell'},
     {time: '17:00', title: 'End', speaker: '-'}
   ];
+
+  // {time: '15:00', title: 'Contributed Talk 1', speaker: 'Yuxiao Qu, Tianjun Zhang, Naman Garg, Aviral Kumar <br> (Recursive Introspection: Teaching LLM Agents How to Self-Improve)'},
+  // {time: '15:15', title: 'Contributed Talk 2', speaker: 'Ziqiao Ma, Zekun Wang, Joyce Chai <br> (Babysit a Language Model from Scratch: Interactive Language Learning by Trials and Demonstrations)'},
 
   constructor() { }
 

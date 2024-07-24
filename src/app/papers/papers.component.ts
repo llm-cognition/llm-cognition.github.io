@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class PapersComponent implements OnInit {
     papers: any[] = []; // Define a property to hold the data
 
-    contributed_talk_ids: number[] = [10, 11];
+    contributed_talk_ids: number[] = [10, 11, 58];
 
     constructor(private http: HttpClient) { } // Inject HttpClient
 

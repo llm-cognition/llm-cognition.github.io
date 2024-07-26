@@ -4,12 +4,19 @@
     <hr>
     <div *ngFor="let speaker of speakers" class="row" class="col-md-4" style="display: inline-block;">
         <a href="{{speaker.url}}" target="_blank">
-            <div class="card" id="{{ speaker.name }}">
+            <div class="card" id="{{ speaker.name }}" style="height: 400px;">
                 <img src="{{ speaker.img }}" class="rounded-circle mx-auto" width="160" height="160"
                     alt="{{ speaker.name }}" style="margin: 0.5rem;">
                 <div class="card-body" style="background-color: #EAECEE;">
                     <h4 class="card-title mb-0" style="font-size:1.4rem"> {{speaker.name}} </h4>
                     <p class="card-text">{{speaker.institute}}</p>
+                    <p class="card-text"><strong>Talk Title: </strong>{{speaker.talk_title}}</p>
+                    <p class="card-text">
+                        <details>
+                            <summary>Abstract</summary>
+                            <p class="abstract">{{speaker.talk_abstract}}</p>
+                        </details>
+                    </p>
                 </div>
             </div>
         </a>

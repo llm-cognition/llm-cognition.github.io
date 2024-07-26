@@ -32,7 +32,7 @@ export class SpeakersComponent implements OnInit {
       institute: 'Stanford University',
       img: 'assets/speakers/chelsea-finn.jpg',
       url: 'https://ai.stanford.edu/~cbfinn/',
-      talk_title: "TBA",
+      talk_title: "How to Give Feedback to Your Language Model",
       talk_abstract: "TBA"
     },
     {

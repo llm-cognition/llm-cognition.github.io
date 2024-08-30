@@ -33,7 +33,7 @@
             "Jianye HAO"
         ],
         "abstract": "Spreadsheet manipulation is widely-existing in most daily works and significantly improves the working efficiency. Large language model (LLM) has been recently attempted for automatic spreadsheet manipulation, but not yet been investigated in complicated and realistic tasks where reasoning challenges exist (e.g., long horizon manipulation with multi-step reasoning and ambiguous requirements). To bridge the gap with the real-world requirements, we introduce **SheetRM**, a benchmark featuring long-horizon and multi-category tasks with reasoning dependent manipulation caused by real-life challenges. To mitigate the above challenges, we further propose **SheetAgent**, an novel autonomous agent that utilizes the power of LLMs. SheetAgent consists of three collaborative modules: Planner, Informer and Retriever, achieving both advanced reasoning and accurate manipulation over spreadsheets without human interaction through iterative task reasoning and reflection. Extensive experiments demonstrate that SheetAgent delivers 20-30% pass rate improvements on multiple benchmarks over baselines, achieving enhanced precision in spreadsheet manipulation and demonstrating superior table reasoning abilities. More details and visualizations are available at https://sheetagent.github.io.",
-        "pdf": "/pdf/f1ac9d1f6e25c57a358f9eff1905ac632ca9a8a5.pdf",
+        "pdf": "/pdf/30341d31775c7bf68ebed5ea91b234606453b1d2.pdf",
         "keywords": [
             "Large Language Models",
             "Autonomous Agent",
@@ -167,7 +167,7 @@
             "hypothesis testing",
             "logical fallacy"
         ],
-        "bibtex": "@inproceedings{\njiang2024a,\ntitle={A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners},\nauthor={Bowen Jiang and Yangxinyu Xie and Zhuoqun Hao and Xiaomeng Wang and Weijie J Su and Tanwi Mallick and Camillo Jose Taylor and Dan Roth},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=ct5po1V3VT}\n}",
+        "bibtex": "@inproceedings{\njiang2024a,\ntitle={A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners},\nauthor={Bowen Jiang and Yangxinyu Xie and Zhuoqun Hao and Xiaomeng Wang and Tanwi Mallick and Weijie J Su and Camillo Jose Taylor and Dan Roth},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=ct5po1V3VT}\n}",
         "number": 10,
         "session": "Poster Session 1",
         "id": 9
@@ -747,33 +747,6 @@
         "id": 35
     },
     {
-        "title": "AI-Assisted Generation of Difficult Math Questions",
-        "authors": [
-            "Vedant Shah",
-            "Dingli Yu",
-            "Kaifeng Lyu",
-            "Simon Park",
-            "Nan Rosemary Ke",
-            "James Lloyd McClelland",
-            "Yoshua Bengio",
-            "Michael Curtis Mozer",
-            "Sanjeev Arora",
-            "Anirudh Goyal"
-        ],
-        "abstract": "Current LLM training positions mathematical reasoning as a core capability. With publicly available sources fully tapped, there is unmet demand for diverse and challenging mathematics questions. Relying solely on human experts is both time-consuming and costly, while LLM-generated questions often lack the requisite diversity and difficulty.  We present a design framework that combines the strengths of LLMs with a human-in-the-loop approach to generate a diverse array of challenging math questions. Initially, leveraging LLM metacognition skills [Didolkar et al., 2024], a strong LLM is used to extract core \"skills\" from existing math datasets.  These skills serve as the basis for generating novel and difficult questions by prompting the LLM with random pairs of core skills that must be utilized in the question. Our pipeline employs LLMs to iteratively generate and refine questions and solutions through multi-turn prompting. Human annotators then verify and further refine the questions, with their efficiency enhanced through further LLM interactions. Applying this pipeline on skills extracted from MATH dataset [Hendrycks et al., 2021] resulted in a dataset of complex math questions, while improving expert productivity. Despite using skills from the MATH dataset, our approach of combining random skill pairs in questions resulted in noticeably higher quality, as evidenced by lower performance of all models on our questions than on MATH (with open models being the most affected). It can be seen as a method for {\\em scalable oversight,} where human experts evaluate highly capable AI models by also using AI-assistance.",
-        "pdf": "/pdf/e79ad92146b26b6c9004a8b0fa31652cdbf30bf2.pdf",
-        "keywords": [
-            "Mathematical Reasoning",
-            "Skill Composition",
-            "Scalable Oversight",
-            "Synthetic Data"
-        ],
-        "bibtex": "@inproceedings{\nshah2024aiassisted,\ntitle={{AI}-Assisted Generation of Difficult Math Questions},\nauthor={Vedant Shah and Anirudh Goyal and Dingli Yu and Kaifeng Lyu and Simon Park and Nan Rosemary Ke and James Lloyd McClelland and Yoshua Bengio and Sanjeev Arora and Michael Curtis Mozer},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=TMefxOnpUa}\n}",
-        "number": 41,
-        "session": "Poster Session 2",
-        "id": 36
-    },
-    {
         "title": "Enhancing LLM Complex Reasoning Capability through Hyperbolic Geometry",
         "authors": [
             "Menglin Yang",
@@ -939,7 +912,7 @@
             "Sara E Berger"
         ],
         "abstract": "Humankind has honed its language system over thousands of years to engage in statistical learning and form predictions about upcoming input, often based on properties of or prior conversational experience with a specific conversational partner. Large language models, however, do not adapt their language in a user-specific manner. We argue that AI and ML researchers and developers should not ignore this critical component of human language processing, but instead, incorporate it into LLM development, and that doing so will improve LLM conversational performance, as well as users\u2019 perceptions of models on dimensions such as accuracy and task success.",
-        "pdf": "/pdf/76cb6722117dccd8fb769372455cec95ec22d8bb.pdf",
+        "pdf": "/pdf/aaaa5bcb4450dcb877270e88a00f5e984810c34f.pdf",
         "keywords": [
             "linguistic alignment",
             "language production",
@@ -1089,14 +1062,14 @@
             "Lena Ann J\u00e4ger"
         ],
         "abstract": "To date, most investigations on surprisal and entropy effects in reading have been conducted on the group-level, disregarding individual differences. In this work, we revisit the predictive power (PP) of different language models' (LMs') surprisal and entropy measures on data of human reading times by incorporating information of language users' cognitive capacities. To do so, we assess the PP of surprisal and entropy estimated from generative LMs on reading data from subjects for which scores from psychometric tests targeting different cognitive domains are available.\n\nSpecifically, we investigate if modulating surprisal and entropy relative to the readers' cognitive scores increases prediction accuracy of reading times, and we examine whether LMs exhibit systematic biases in the prediction of reading times for cognitively high- or low-scoring groups, allowing us to investigate what type of psycholinguistic subjects a given LM emulates.\n\nWe find that incorporating cognitive capacities mostly increases PP of surprisal and entropy on reading times, and that individuals performing high in cognitive tests are less sensitive to predictability effects. Our results further suggest that the analyzed LMs emulate readers with lower verbal intelligence, suggesting that for a given target group (i.e., individuals with high verbal intelligence), these LMs provide less accurate predictability estimates. Finally, our study underlines the value of incorporating individual-level information to gain insights into how LMs operate internally.",
-        "pdf": "/pdf/d8c88804d66717552e2607ae4722b9b5f2202ae0.pdf",
+        "pdf": "/pdf/e719dc1c24d54782820aca46ed4d87dcc250aeeb.pdf",
         "keywords": [
             "cognitive interpretability",
             "individual differences",
             "reading time analysis",
             "language modeling"
         ],
-        "bibtex": "@inproceedings{\nhaller2024language,\ntitle={Language models can emulate certain cognitive profiles: An investigation on the predictive power of modulated surprisal and entropy},\nauthor={Patrick Haller and Lena Sophia Bolliger and Lena Ann J{\\\"a}ger},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=io5QAglkER}\n}",
+        "bibtex": "@inproceedings{\nhaller2024on,\ntitle={On language models{\\textquoteright} cognitive biases in reading time prediction},\nauthor={Patrick Haller and Lena Sophia Bolliger and Lena Ann J{\\\"a}ger},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=io5QAglkER}\n}",
         "number": 59,
         "session": "Poster Session 2",
         "id": 52
@@ -1217,7 +1190,7 @@
             "comparative bias",
             "mechanistic interpretability"
         ],
-        "bibtex": "@inproceedings{\nmilli{\\`e}re2024anthropocentric,\ntitle={Anthropocentric reasoning and the possibility of artificial cognition},\nauthor={Rapha{\\\"e}l Milli{\\`e}re and Charles Rathkopf},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=wrZ6mLelzu}\n}",
+        "bibtex": "@inproceedings{\nmilli{\\`e}re2024anthropocentric,\ntitle={Anthropocentric bias and the possibility of artificial cognition},\nauthor={Rapha{\\\"e}l Milli{\\`e}re and Charles Rathkopf},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=wrZ6mLelzu}\n}",
         "number": 66,
         "session": "Poster Session 2",
         "id": 58
@@ -1270,9 +1243,9 @@
             "Azmine Toushik Wasi"
         ],
         "abstract": "Integrating cognitive ergonomics with LLMs is essential for enhancing safety, reliability, and user satisfaction in human-AI interactions. Current LLM design often lacks this integration, leading to systems that may not fully align with human cognitive capabilities and limitations. Insufficient focus on incorporating cognitive science methods exacerbates biases in LLM outputs, while inconsistent application of user-centered design principles results in sub-optimal user experiences. To address these challenges, our position paper explores the critical integration of cognitive ergonomics principles into LLM design, aiming to provide a comprehensive framework and practical guidelines for ethical LLM development. Through our contributions, we seek to advance understanding and practice in integrating cognitive ergonomics into LLM systems, fostering safer, more reliable, and ethically sound human-AI interactions.",
-        "pdf": "https://arxiv.org/abs/2407.02885",
+        "pdf": "/pdf/9035bdfbd5730017a0b4643f2e49342e565c8598.pdf",
         "keywords": [
-            "Cognitive Modeling",
+            "Congitive Modeling",
             "Erogonomics",
             "Cognitive Ergonomics",
             "Large Language Models",
@@ -1322,7 +1295,7 @@
             "Cognition",
             "AI"
         ],
-        "bibtex": "@inproceedings{\ndas2024theory,\ntitle={Theory of Mind Assay of Multimodal {LLM}s},\nauthor={Rohini Elora Das and Niharika Maity and Rajarshi Das and Sreerupa Das},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=PsGVVQJZGk}\n}",
+        "bibtex": "@inproceedings{\ndas2024iterative,\ntitle={Iterative Theory of Mind Assay of Multimodal {AI} Models},\nauthor={Rohini Elora Das and Rajarshi Das and Niharika Maity and Sreerupa Das},\nbooktitle={ICML 2024 Workshop on LLMs and Cognition},\nyear={2024},\nurl={https://openreview.net/forum?id=PsGVVQJZGk}\n}",
         "number": 72,
         "session": "Poster Session 2",
         "id": 63
